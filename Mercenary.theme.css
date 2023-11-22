@@ -1,0 +1,55 @@
+/**
+ * @name Mercenary
+ * @author Mercenary
+ * @version 0.0.1
+ * @invite betterrl
+ * @description Mercenary's custom theme
+*/
+
+/* div[class="wrapper_edb6e0"][aria-label*="Online via mobile"] > svg > {
+    display: none;
+} */
+
+/* Remove the defautl status indicator on the avatar in DM list */
+
+.wrapper_edb6e0 > svg[class="mask__1979f svg_f5b652"] > rect {
+    display: none;
+}
+.wrapper_edb6e0 > svg[class="mask__1979f svg_f5b652"] > svg {
+    display: none;
+}
+
+.wrapper_edb6e0 > svg[class="mask__1979f svg_f5b652"] > foreignObject[mask*="url(#"] {
+    mask: none;
+    border-radius: 25px;
+}
+
+/* Apply a glow around the user's avatar in regards to their online status */
+
+.layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Online via mobile"] {
+    box-shadow: 0 0 3.5px 3.5px var(--status-online);
+}
+
+.layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Online"] {
+    box-shadow: 0 0px 3.5px 3.5px var(--status-online);
+}
+
+.layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Idle"] {
+    box-shadow: 0 0 3.5px 3.5px var(--status-idle);
+}
+
+.layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Offline"] {
+    box-shadow: 0 0 3.5px 3.5px var(--status-offline);
+}
+
+.layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Do Not Disturb"] {
+    box-shadow: 0 0 3.5px 3.5px var(--status-dnd);
+}
+
+.layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Streaming"] {
+    box-shadow: 0 0 3.5px 3.5px var(--status-streaming);
+}
+
+.layout__59abc > .avatar__7bd22 > .wrapper_edb6e0 > svg[class="cursorDefault_e4f616"] > rect {
+    display: hidden;
+}
