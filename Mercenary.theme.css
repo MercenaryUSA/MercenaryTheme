@@ -6,50 +6,72 @@
  * @description Mercenary's custom theme
 */
 
-/* div[class="wrapper_edb6e0"][aria-label*="Online via mobile"] > svg > {
-    display: none;
-} */
+/* Remove the default status indicators globally, except bottom left profile avatar */
 
-/* Remove the defautl status indicator on the avatar in DM list */
-
-.wrapper_edb6e0 > svg[class="mask__1979f svg_f5b652"] > rect {
+.wrapper_edb6e0:not(.avatar_f8541f, .avatar__8986c) > svg[class="mask__1979f svg_f5b652"] > rect {
     display: none;
 }
-.wrapper_edb6e0 > svg[class="mask__1979f svg_f5b652"] > svg {
+.wrapper_edb6e0:not(.avatar_f8541f, .avatar__8986c) > svg[class="mask__1979f svg_f5b652"] > svg {
     display: none;
 }
 
-.wrapper_edb6e0 > svg[class="mask__1979f svg_f5b652"] > foreignObject[mask*="url(#"] {
+.wrapper_edb6e0:not(.avatar_f8541f, .avatar__8986c) > svg[class="mask__1979f svg_f5b652"] > foreignObject[mask*="url(#"] {
     mask: none;
     border-radius: 25px;
 }
 
-/* Apply a glow around the user's avatar in regards to their online status */
+.layout__59abc > .avatar__7bd22, .avatar__6337f > .wrapper_edb6e0 > svg[class="cursorDefault_e4f616"] > rect {
+    display: hidden;
+}
+
+/* Apply online status glow to DM list */
 
 .layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Online via mobile"] {
-    box-shadow: 0 0 3.5px 3.5px var(--status-online);
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-online, #1df594);
 }
 
 .layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Online"] {
-    box-shadow: 0 0px 3.5px 3.5px var(--status-online);
+    box-shadow: 0 0px 3.5px 3.5px var(--rs-status-online, #1df594);
 }
 
 .layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Idle"] {
-    box-shadow: 0 0 3.5px 3.5px var(--status-idle);
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-idle, #faa61a);
 }
 
 .layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Offline"] {
-    box-shadow: 0 0 3.5px 3.5px var(--status-offline);
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-offline, #636b75);
 }
 
 .layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Do Not Disturb"] {
-    box-shadow: 0 0 3.5px 3.5px var(--status-dnd);
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-dnd, #ee3d3d);
 }
 
 .layout__59abc > .avatar__7bd22 > .wrapper_edb6e0[aria-label*="Streaming"] {
-    box-shadow: 0 0 3.5px 3.5px var(--status-streaming);
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-streaming, #643da7);
 }
 
-.layout__59abc > .avatar__7bd22 > .wrapper_edb6e0 > svg[class="cursorDefault_e4f616"] > rect {
-    display: hidden;
+/* Apply oonline status glow to guild members list */
+
+.avatar__6337f > .wrapper_edb6e0[aria-label*="Online via mobile"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-online, #1df594);
+}
+
+.avatar__6337f > .wrapper_edb6e0[aria-label*="Online"] {
+    box-shadow: 0 0px 3.5px 3.5px var(--rs-status-online, #1df594);
+}
+
+.avatar__6337f > .wrapper_edb6e0[aria-label*="Idle"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-idle, #faa61a);
+}
+
+.avatar__6337f > .wrapper_edb6e0[aria-label*="Offline"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-offline, #636b75);
+}
+
+.avatar__6337f > .wrapper_edb6e0[aria-label*="Do Not Disturb"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-dnd, #ee3d3d);
+}
+
+.avatar__6337f > .wrapper_edb6e0[aria-label*="Streaming"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-streaming, #643da7);
 }

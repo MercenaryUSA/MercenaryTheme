@@ -6,4 +6,12 @@
  * @description Mercenary's custom theme
 */
 
-@import url('');
+@import url('https://mercenaryusa.github.io/MercenaryTheme/Mercenary.theme.css');
+
+:root {
+    --rs-status-online: #1df594;
+    --rs-status-idle: #faa61a;
+    --rs-status-offline: #636b75;
+    --rs-status-dnd: #ee3d3d;
+    --rs-status-streaming: #643da7;
+}
