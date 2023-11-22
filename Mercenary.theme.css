@@ -6,21 +6,63 @@
  * @description Mercenary's custom theme
 */
 
-/* Remove the default status indicators globally, except bottom left profile avatar */
+/* Apply custom background to the entire app */
+body {
+    --background-primary: var(--bg-primary);
+    --background-secondary: var(--bg-secondary);
+    --background-secondary-alt: var(--bg-secondary-alt);
+    --background-tertiary: var(--bg-tertiary);
+}
 
-.wrapper_edb6e0:not(.avatar_f8541f, .avatar__8986c) > svg[class="mask__1979f svg_f5b652"] > rect {
+div[class="upperContainer__993ba"] > div[class="children__32014"]::after {
     display: none;
 }
-.wrapper_edb6e0:not(.avatar_f8541f, .avatar__8986c) > svg[class="mask__1979f svg_f5b652"] > svg {
+
+section[class="theme-dark container__11d72 themed_b152d4"] {
+    padding: 0;
+    width: 100%;
+}
+
+section[class="theme-dark container__11d72 themed_b152d4"] > div[class="upperContainer__993ba"] {
+    background-color: var(--bg-primary);
+}
+
+div[class="scrollableContainer__33e06 themedBackground__6b1b6 webkit__8d35a"] {
+    background-color: var(--bg-messagebox);
+}
+
+/* Apply accent color to checkbox inputs */
+div[class="control_f6cce7"] > div[class="container__871ba checked__6bdb0"] {
+    background-color: var(--accentcolor) !important;
+}
+
+/* Remove all scrollbars */
+
+.scrollerBase_dc3aa9::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+/* Apply custom color to username in bottom left avatar */
+div[class="nameTag__0e320 canCopy__81263"] > div[class="panelTitleContainer__7a748"] > div[class="text-sm-normal_e612c7 title__10613"][data-text-variant="text-sm/normal"] {
+    color: var(--profile-username-color);
+}
+
+/* Remove the default status indicators globally */
+
+.wrapper_edb6e0 > svg[class="mask__1979f svg_f5b652"] > rect {
+    display: none;
+}
+.wrapper_edb6e0 > svg[class="mask__1979f svg_f5b652"] > svg {
     display: none;
 }
 
-.wrapper_edb6e0:not(.avatar_f8541f, .avatar__8986c) > svg[class="mask__1979f svg_f5b652"] > foreignObject[mask*="url(#"] {
+.wrapper_edb6e0 > svg[class="mask__1979f svg_f5b652"] > foreignObject[mask*="url(#"] {
     mask: none;
     border-radius: 50px;
 }
 
-.layout__59abc > .avatar__7bd22, .avatar__6337f > .wrapper_edb6e0 > svg[class="cursorDefault_e4f616"] > rect {
+.avatar__7bd22, .avatar__6337f, .avatar__8986c > .wrapper_edb6e0 > svg[class="cursorDefault_e4f616"] > rect {
     display: hidden;
 }
 
@@ -50,7 +92,7 @@
     box-shadow: 0 0 3.5px 3.5px var(--rs-status-streaming, #643da7);
 }
 
-/* Apply oonline status glow to guild members list */
+/* Apply online status glow to guild members list */
 
 .avatar__6337f > .wrapper_edb6e0[aria-label*="Online via mobile"] {
     box-shadow: 0 0 3.5px 3.5px var(--rs-status-online, #1df594);
@@ -74,4 +116,62 @@
 
 .avatar__6337f > .wrapper_edb6e0[aria-label*="Streaming"] {
     box-shadow: 0 0 3.5px 3.5px var(--rs-status-streaming, #643da7);
+}
+
+/* Apply status glow to bottom left avatar */
+
+div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Online via mobile"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-online, #1df594);
+}
+
+div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Online"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-online, #1df594);
+}
+
+div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Idle"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-idle, #faa61a);
+}
+
+div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Offline"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-offline, #636b75);
+}
+
+div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Do Not Disturb"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-dnd, #ee3d3d);
+}
+
+div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Streaming"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-streaming, #643da7);
+}
+
+/* Adjust avatar position and apply status glow to friends list avatars */
+
+div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Online via mobile"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-online, #1df594);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Online"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-online, #1df594);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Idle"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-idle, #faa61a);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Offline"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-offline, #636b75);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Do Not Disturb"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-dnd, #ee3d3d);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Streaming"] {
+    box-shadow: 0 0 3.5px 3.5px var(--rs-status-streaming, #643da7);
+    margin: 5px 10px 5px 5px;
 }

@@ -9,9 +9,25 @@
 @import url('https://mercenaryusa.github.io/MercenaryTheme/Mercenary.theme.css');
 
 :root {
+    --accentcolor: rgb(68, 164, 255);
+    
     --rs-status-online: #1df594;
     --rs-status-idle: #faa61a;
     --rs-status-offline: #636b75;
     --rs-status-dnd: #ee3d3d;
     --rs-status-streaming: #643da7;
+
+    --profile-username-color: var(--accentcolor);
+
+    --bg-primary: rgba(30, 30, 30, 1);
+    --bg-secondary: rgba(30, 30, 30, 1);
+    --bg-secondary-alt: rgba(30, 30, 30, 1);
+    --bg-tertiary: rgba(30, 30, 30, 1);
+    --bg-messagebox: rgba(35, 35, 35, 1);
+}
+
+/* Change to show/hide your online status in bottom left avatar */
+/* block = show | none = hide */
+div[class="wrapper_edb6e0 avatar_f8541f"] {
+    box-shadow: block !important;
 }
