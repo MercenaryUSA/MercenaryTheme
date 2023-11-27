@@ -389,7 +389,7 @@ div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
 }
 
 .container_ca50b9 {
-    border-radius: 25px;
+    border: none;
 }
 
 .sidebar_ded4b5:has(.animatedContainer__341f6) .panels__58331 {
@@ -398,7 +398,6 @@ div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
 }
 
 .activityPanel__22355 {
-    border-radius: 25px;
     border: none;
     background: none;
     display: none;
