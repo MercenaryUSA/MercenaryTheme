@@ -225,6 +225,10 @@ div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Streaming"]>svg[class="ma
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
 }
 
+foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
+    visibility: hidden;
+}
+
 /* Change the look of themes list */
 .bd-addon-card {
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -358,10 +362,30 @@ div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Streaming"]>svg[class="ma
 
 /* Custom user area look */
 .panels__58331 {
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    border-radius: 25px;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
+    position: fixed;
+    top: 70px;
+    left: 70px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.panels__58331:hover:has(.activityPanel__22355) .activityPanel__22355 {
+    display: block;
+}
+
+.panels__58331:hover:has(.listeningAlong_f20fb2) .listeningAlong_f20fb2 {
+    display: inline-flex;
+}
+
+.panels__58331:hover:has(.container_6sXIoE) .container_6sXIoE {
+    display: block !important;
+}
+
+div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
+    padding-top: 25x;
+}
+
+.content__23cab {
+    padding-top: 50px;
 }
 
 .container_ca50b9 {
@@ -372,9 +396,16 @@ div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Streaming"]>svg[class="ma
     border-radius: 25px;
     border: none;
     background: none;
+    display: none;
 }
 
 .listeningAlong_f20fb2 {
+    border: none;
+    display: none;
+}
+
+.container_6sXIoE {
+    display: none;
     border: none;
 }
 
@@ -419,19 +450,6 @@ span[data-slate-string="true"] {
 .reactionCount_b49901 {
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
-}
-
-/* Custom typing indicators */
-.typingDots_d92d42 {
-    color: var(--accentcolor);
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-}
-
-.typingDots_d92d42>svg>g>circle {
-    color: var(--accentcolor);
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
 }
 
 /* Highlight user when there is an unread DM */
@@ -547,4 +565,57 @@ div.text-md-normal__4afad {
 .activityText__84949 {
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
+}
+
+/* Custom typing indicator */
+.typing__6fd1d {
+    font-size:0;
+}
+
+.typing__6fd1d strong {
+    font-size:12px;
+    color: rgba(var(--accentcolor-norgb), 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.typing__6fd1d strong:after {
+    font-size:12px;
+    content:',';
+    font-family: 'Poppins', sans-serif;
+}
+
+.typing__6fd1d strong:nth-last-child(2)::after {
+    content:'and';
+    color: rgba(var(--accentcolor-norgb), 1);
+    font-weight: 400;
+    font-size:12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.typing__6fd1d strong:last-child::after {
+    content: var(--typing-message-is);
+    color: rgba(var(--accentcolor-norgb), 1);
+    font-weight: 400;
+    font-size:12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.typing__6fd1d strong:nth-last-child()::after {
+    content: var(--typing-message-are);
+    color: rgba(var(--accentcolor-norgb), 1);
+    font-weight: 400;
+    font-size:12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.typingDots_d92d42 {
+    margin-top: 5px;
+}
+
+.dots_a97068 {
+    margin-bottom: 2px;
+}
+
+.typingDots_d92d42>svg>g>circle {
+    color: rgba(var(--accentcolor-norgb), 1);
 }

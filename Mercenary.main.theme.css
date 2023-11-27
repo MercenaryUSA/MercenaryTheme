@@ -6,9 +6,14 @@
  * @description An elegant dark theme.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&display=swap');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+/* Core */
 @import url('https://mercenaryusa.github.io/MercenaryTheme/Mercenary.theme.css');
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&display=swap');
+
+/* Addons */
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
     --accentcolor: rgb(114, 137, 218);
@@ -40,6 +45,13 @@
     --rs-invisible-color: #636b75;
     --rs-phone-visible: block;
     --rs-phone-color: var(--rs-online-color);
+
+    --typing-message-is: ' might say something...';
+    --typing-message-are: ' might say something...';
+    --typing-message-color: rgba(var(--accentcolor-norgb), 1);
+    --typing-message-user-color: rgba(var(--accentcolor-norgb), 1);
+    --typing-indicator-channel-color: rgba(var(--accentcolor-norgb), 1);
+    --typing-indicator-avatar-color: var(--accentcolor);
 }
 
 /* Change to show/hide your online status in bottom left avatar */
