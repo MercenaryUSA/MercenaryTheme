@@ -384,7 +384,7 @@ div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
     padding-top: 25x;
 }
 
-.content__23cab {
+.content__23cab:not(.content__23cab:has(.membersGroup__85843)) {
     padding-top: 50px;
 }
 
