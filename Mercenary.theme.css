@@ -55,9 +55,8 @@ div[class="control_f6cce7"]>div[class="container__871ba checked__6bdb0"] {
 }
 
 /* Remove all scrollbars */
-.scrollerBase_dc3aa9::-webkit-scrollbar {
-    width: 0;
-    height: 0;
+.scrollerBase_dc3aa9:not(.scroller__750f5)::-webkit-scrollbar {
+    display: none;
 }
 
 /* Apply custom color to username in bottom left avatar */
