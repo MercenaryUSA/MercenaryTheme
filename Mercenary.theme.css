@@ -391,9 +391,6 @@ foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
 
 .panels__58331:hover:has(.container_6sXIoE) .container_6sXIoE {
     display: flex;
-    flex-direction: column;
-    flex-basis: fit-content;
-    flex: 1;
 }
 
 div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
