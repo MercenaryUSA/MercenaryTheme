@@ -733,3 +733,13 @@ div.text-md-normal__4afad {
 .typingDots_d92d42>svg>g>circle {
     color: rgba(var(--accentcolor-norgb), 1);
 }
+
+/* Custom style for code containers */
+.codeContainer__1ded4 {
+    width: fit-content;
+    border-radius: 5px;
+}
+
+code[class*="scrollbarGhostHairline_c9a45f scrollbar_d66c5e"] {
+    background-color: var(--bg-messagebox);
+}
