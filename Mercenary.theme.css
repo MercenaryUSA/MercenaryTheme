@@ -171,7 +171,8 @@ div[class="flex_f5fbb7 horizontal__992f6 justifyStart__42744 alignStretch_e239ef
 div[class="rtcConnectionStatus__40882 rtcConnectionQualityFine__471b6"]>svg>path {
     color: var(--accentcolor) !important;
 }
-div[class="rtcConnectionStatus__40882 rtcConnectionQualityFine__471b6"] > .labelWrapper_a0c350 > button {
+
+div[class="rtcConnectionStatus__40882 rtcConnectionQualityFine__471b6"]>.labelWrapper_a0c350>button {
     color: var(--accentcolor) !important;
 }
 
@@ -449,18 +450,18 @@ foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
 .messageContent__21e69:not(.repliedTextContent__75526) {
     font-size: 13px;
     width: fit-content;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
 }
 
 .repliedTextPreview__90311 {
     color: grey;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
 }
 
 .repliedTextContent__75526 {
     color: grey;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
 }
 
@@ -471,7 +472,7 @@ foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
 }
 
 .username_d30d99 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 15px;
 }
 
@@ -536,16 +537,16 @@ foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
 
 /* Custom messagebox area */
 div[role="textbox"] {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
 }
 
 .placeholder_e68c63 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
 }
 
 span[data-slate-string="true"] {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
 }
 
@@ -561,7 +562,7 @@ span[data-slate-string="true"] {
 }
 
 .reactionCount_b49901 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
 }
 
@@ -587,7 +588,7 @@ div[class="nicknames__7447d overflow__87fe8"]:hover {
 /* Add theme watermark to top left */
 .wordmarkWindows__05c46:after {
     content: "Mercenary Edition";
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
     color: rgba(82, 82, 82, 0.5);
     margin-left: 10px;
@@ -600,7 +601,7 @@ span[class="botTag_a52f38 botTagRegular_c89c9a botTag__4211a px__97c6b"] {
     border-radius: 5px;
     box-shadow: -3px 3px 5px 2px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.3);
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
     margin-left: 10px;
     margin-bottom: 5px;
@@ -609,49 +610,49 @@ span[class="botTag_a52f38 botTagRegular_c89c9a botTag__4211a px__97c6b"] {
 
 /* Custom font for profiles */
 input[class="inputDefault__80165 input_d266e7 messageInput__3b049 input__95bc4"] {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 14px;
 }
 
 /* Custom font for channels */
 div[class="name__8d1ec overflow__87fe8"] {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
     font-weight: bold;
 }
 
 .content_c6490e {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
     font-weight: bold;
 }
 
 h1.title__9e2b0 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
     font-weight: bold;
 }
 
 /* Custom font for submenu's */
 .label__73cb9 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 13px;
 }
 
 /* Custom font for settings menu */
 .side_b4b3f6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
 }
 
 h2.title__3e421 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 15px;
     font-weight: bold;
 }
 
 h3.h5__884a2,
 h3.text-md-medium__5151a {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 12px;
     font-weight: bold;
 }
@@ -659,24 +660,24 @@ h3.text-md-medium__5151a {
 div.description__7af71,
 div.contents_fb6220,
 label.title__28a65 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 12px;
 }
 
 div.text-md-normal__4afad {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 14px;
 }
 
 /* Custom font for usernames in DM list */
 .name__02dbd {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 14px;
 }
 
 /* Custom font for activity in DM list */
 .activityText__84949 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
     font-size: 10px;
 }
 
@@ -688,13 +689,13 @@ div.text-md-normal__4afad {
 .typing__6fd1d strong {
     font-size: 12px;
     color: rgba(var(--accentcolor-norgb), 1);
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
 }
 
 .typing__6fd1d strong:after {
     font-size: 12px;
     content: ',';
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
 }
 
 .typing__6fd1d strong:nth-last-child(2)::after {
@@ -702,7 +703,7 @@ div.text-md-normal__4afad {
     color: rgba(var(--accentcolor-norgb), 1);
     font-weight: 400;
     font-size: 12px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
 }
 
 .typing__6fd1d strong:last-child::after {
@@ -710,7 +711,7 @@ div.text-md-normal__4afad {
     color: rgba(var(--accentcolor-norgb), 1);
     font-weight: 400;
     font-size: 12px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
 }
 
 .typing__6fd1d strong:nth-last-child()::after {
@@ -718,7 +719,7 @@ div.text-md-normal__4afad {
     color: rgba(var(--accentcolor-norgb), 1);
     font-weight: 400;
     font-size: 12px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-global);
 }
 
 .typingDots_d92d42 {

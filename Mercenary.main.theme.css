@@ -20,6 +20,8 @@
     --accentcolor: rgb(114, 137, 218); /* Default: rgb(114, 137, 218); */
     --accentcolor-norgb: 114, 137, 218; /* Default: 114, 137, 218 */
 
+    --font-global: 'Poppins', sans-serif; /* Default: 'Poppins', sans-serif */
+
     --profile-username-color: var(--accentcolor);
 
     --bg-primary: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
