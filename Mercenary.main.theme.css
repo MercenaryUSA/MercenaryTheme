@@ -16,42 +16,43 @@
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
-    --accentcolor: rgb(114, 137, 218);
-    --accentcolor-norgb: 114, 137, 218;
+    /* When changing the --accentcolor, be sure to adjust the values for --accentcolor-norgb to match --accentcolor */
+    --accentcolor: rgb(114, 137, 218); /* Default: rgb(114, 137, 218); */
+    --accentcolor-norgb: 114, 137, 218; /* Default: 114, 137, 218 */
 
     --profile-username-color: var(--accentcolor);
 
-    --bg-primary: rgba(20, 20, 20, 1);
-    --bg-secondary: rgba(20, 20, 20, 1);
-    --bg-secondary-alt: rgba(20, 20, 20, 1);
-    --bg-tertiary: rgba(20, 20, 20, 1);
-    --bg-messagebox: rgba(25, 25, 25, 1);
+    --bg-primary: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
+    --bg-secondary: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
+    --bg-secondary-alt: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
+    --bg-tertiary: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
+    --bg-messagebox: rgba(25, 25, 25, 1); /* Default: rgba(25, 25, 25, 1); */
 
-    --mention-highlight: rgba(114, 137, 218, 0.2);
-    --mention-sidebar: rgba(114, 137, 218, 0.5);
+    --mention-highlight: rgba(114, 137, 218, 0.2); /* Default: rgba(114, 137, 218, 0.2); */
+    --mention-sidebar: rgba(114, 137, 218, 0.5); /* Default: rgba(114, 137, 218, 0.5); */
 
-    --rs-small-spacing: 0px;
-    --rs-large-spacing: 0px;
-    --rs-medium-spacing: 0px;
-    --rs-small-width: 2.5px;
-    --rs-medium-width: 3.5px;
-    --rs-large-width: 4.5px;
-    --rs-avatar-shape: 50%;
-    --rs-online-color: #1df594;
-    --rs-idle-color: #faa61a;
-    --rs-dnd-color: #f04747;
-    --rs-offline-color: #636b75;
-    --rs-streaming-color: #643da7;
-    --rs-invisible-color: #636b75;
-    --rs-phone-visible: block;
-    --rs-phone-color: var(--rs-online-color);
+    --rs-small-spacing: 0px; /* Default: 0px */
+    --rs-large-spacing: 0px; /* Default: 0px */
+    --rs-medium-spacing: 0px; /* Default: 0px */
+    --rs-small-width: 2.5px; /* Default: 2.5px */
+    --rs-medium-width: 3.5px; /* Default: 3.5px */
+    --rs-large-width: 4.5px; /* Default: 4.5px */
+    --rs-avatar-shape: 50%; /* Default: 50% */
+    --rs-online-color: #1df594; /* Default: #1df594 */
+    --rs-idle-color: #faa61a; /* Default: #faa61a */
+    --rs-dnd-color: #f04747; /* Default: #f04747 */
+    --rs-offline-color: #636b75; /* Default: #636b75 */
+    --rs-streaming-color: #643da7; /* Default: #643da7 */
+    --rs-invisible-color: #636b75; /* Default: #636b75 */
+    --rs-phone-visible: block; /* Default: block */
+    --rs-phone-color: var(--rs-online-color); /* Default: var(--rs-online-color) */
 
-    --typing-message-is: ' might say something...';
-    --typing-message-are: ' might say something...';
-    --typing-message-color: rgba(var(--accentcolor-norgb), 1);
-    --typing-message-user-color: rgba(var(--accentcolor-norgb), 1);
-    --typing-indicator-channel-color: rgba(var(--accentcolor-norgb), 1);
-    --typing-indicator-avatar-color: var(--accentcolor);
+    --typing-message-is: ' might say something...'; /* Default: ' might say something...' */
+    --typing-message-are: ' might say something...'; /* Default: ' might say something...' */
+    --typing-message-color: rgba(var(--accentcolor-norgb), 1); /* Default: rgba(var(--accentcolor-norgb), 1) */
+    --typing-message-user-color: rgba(var(--accentcolor-norgb), 1); /* Default: rgba(var(--accentcolor-norgb), 1) */
+    --typing-indicator-channel-color: rgba(var(--accentcolor-norgb), 1); /* Default: rgba(var(--accentcolor-norgb), 1) */
+    --typing-indicator-avatar-color: var(--accentcolor); /* Default: var(--accentcolor) */
 }
 
 /* Change to show/hide your online status in bottom left avatar */
