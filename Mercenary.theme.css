@@ -465,11 +465,11 @@ foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
     font-size: 13px;
 }
 
-.imageContainer__04362 {
+/* .imageContainer__04362 {
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     width: fit-content;
-}
+} */
 
 .username_d30d99 {
     font-family: var(--font-global);
