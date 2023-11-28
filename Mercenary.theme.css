@@ -92,21 +92,33 @@ div[class="nameTag__0e320 canCopy__81263"]>div[class="panelTitleContainer__7a748
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
+    background: var(--bg-primary);
 }
 
 .panels__58331:hover:has(.activityPanel__22355) .activityPanel__22355 {
     display: flex;
     flex-direction: column;
     flex-basis: fit-content;
-    flex: 1;
+    background: var(--bg-primary);
 }
 
 .panels__58331:hover:has(.listeningAlong_f20fb2) .listeningAlong_f20fb2 {
     display: inline-flex;
+    background: var(--bg-primary);
 }
 
 .panels__58331:hover:has(.container_6sXIoE) .container_6sXIoE {
     display: flex;
+    flex-direction: column;
+    flex-basis: fit-content;
+    background: var(--bg-primary);
+}
+
+.panels__58331:hover:has(.container_d667ff) .container_d667ff {
+    display: flex;
+    flex-direction: column;
+    flex-basis: fit-content;
+    background: var(--bg-primary);
 }
 
 div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
@@ -142,6 +154,11 @@ div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
     border: none;
 }
 
+.container_d667ff {
+    display: none;
+    border: none;
+}
+
 .contents_fb6220>svg {
     transition: 0.3s ease;
 }
@@ -149,6 +166,13 @@ div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
 div[class="flex_f5fbb7 horizontal__992f6 justifyStart__42744 alignStretch_e239ef noWrap__5c413"]>button:hover svg:hover {
     transform:
         scale(1.2) rotate(360deg);
+}
+
+div[class="rtcConnectionStatus__40882 rtcConnectionQualityFine__471b6"]>svg>path {
+    color: var(--accentcolor) !important;
+}
+div[class="rtcConnectionStatus__40882 rtcConnectionQualityFine__471b6"] > .labelWrapper_a0c350 > button {
+    color: var(--accentcolor) !important;
 }
 
 /* Custom channel look */
