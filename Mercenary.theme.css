@@ -84,7 +84,7 @@ div[class="nameTag__0e320 canCopy__81263"]>div[class="panelTitleContainer__7a748
     color: var(--profile-username-color);
 }
 
-.panels__58331 {
+/* .panels__58331 {
     position: fixed;
     top: 70px;
     left: 71px;
@@ -157,7 +157,7 @@ div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
 .container_d667ff {
     display: none;
     border: none;
-}
+} */
 
 .contents_fb6220>svg {
     transition: 0.3s ease;
