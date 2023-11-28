@@ -53,6 +53,10 @@ button[class="controlButton_ab2899 centerButton__3205b colorable_c84c4c red_a51b
     background-color: rgba(var(--accentcolor-norgb), 1) !important;
 }
 
+section[class="theme-dark sidebarTabBar_a46dd2 container__11d72 themed_b152d4"] {
+    background-color: var(--bg-primary) !important;
+}
+
 /* Apply accent color to checkbox inputs */
 div[class="control_f6cce7"]>div[class="container__871ba checked__6bdb0"] {
     background-color: var(--accentcolor) !important;
@@ -67,7 +71,15 @@ div[class="control_f6cce7"]>div[class="container__871ba checked__6bdb0"] {
     display: none;
 }
 
-/* Apply custom color to username in bottom left avatar */
+/* Custom user profile panel */
+div[class="avatarWrapper_ba5175 withTagAsButton_cc125f"]:hover {
+    background: none;
+}
+
+.hoverRoll__041cb {
+    display: none;
+}
+
 div[class="nameTag__0e320 canCopy__81263"]>div[class="panelTitleContainer__7a748"]>div[class="text-sm-normal_e612c7 title__10613"][data-text-variant="text-sm/normal"] {
     color: var(--profile-username-color);
 }
@@ -427,18 +439,6 @@ div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
 }
 
 /* Custom messagebox area */
-/* div[class="channelTextArea__2e60f channelTextArea__56a36"] {
-    border-radius: 5px;
-    box-shadow: -3px 3px 5px 2px rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-div[class="scrollableContainer__33e06 themedBackground__6b1b6 webkit__8d35a"] {
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    box-shadow: -3x 3px 5px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-} */
-
 div[role="textbox"] {
     font-family: 'Poppins', sans-serif;
 }
@@ -586,26 +586,26 @@ div.text-md-normal__4afad {
 
 /* Custom typing indicator */
 .typing__6fd1d {
-    font-size: 0;
+    font-size:0;
 }
 
 .typing__6fd1d strong {
-    font-size: 12px;
+    font-size:12px;
     color: rgba(var(--accentcolor-norgb), 1);
     font-family: 'Poppins', sans-serif;
 }
 
 .typing__6fd1d strong:after {
-    font-size: 12px;
-    content: ',';
+    font-size:12px;
+    content:',';
     font-family: 'Poppins', sans-serif;
 }
 
 .typing__6fd1d strong:nth-last-child(2)::after {
-    content: 'and';
+    content:'and';
     color: rgba(var(--accentcolor-norgb), 1);
     font-weight: 400;
-    font-size: 12px;
+    font-size:12px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -613,7 +613,7 @@ div.text-md-normal__4afad {
     content: var(--typing-message-is);
     color: rgba(var(--accentcolor-norgb), 1);
     font-weight: 400;
-    font-size: 12px;
+    font-size:12px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -621,7 +621,7 @@ div.text-md-normal__4afad {
     content: var(--typing-message-are);
     color: rgba(var(--accentcolor-norgb), 1);
     font-weight: 400;
-    font-size: 12px;
+    font-size:12px;
     font-family: 'Poppins', sans-serif;
 }
 
