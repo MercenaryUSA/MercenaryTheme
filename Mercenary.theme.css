@@ -49,6 +49,11 @@ div[class="scrollableContainer__33e06 themedBackground__6b1b6 webkit__8d35a hasC
     box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.1) !important;
 }
 
+.focusLock__10aa5 > div, .flex_f5fbb7, .modalSize__42455 {
+    background-color: var(--bg-primary) !important;
+    font-family: var(--font-global) !important;
+}
+
 /* button[class="controlButton_ab2899 centerButton__3205b colorable_c84c4c red_a51ba8 button_afdfd9 lookBlank__7ca0a colorBrand_b2253e"] {
     background-color: rgba(var(--accentcolor-norgb), 1) !important;
 } */
@@ -693,6 +698,12 @@ div.text-md-normal__4afad {
 .activityText__84949 {
     font-family: var(--font-global);
     font-size: 10px;
+}
+
+/* Custom font for screen share modal */
+.h5__884a2, .title__28a65, .description__675c8 {
+    font-family: var(--font-global);
+    font-size: 12px;
 }
 
 /* Custom typing indicator */
