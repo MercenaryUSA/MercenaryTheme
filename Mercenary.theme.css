@@ -49,9 +49,17 @@ div[class="scrollableContainer__33e06 themedBackground__6b1b6 webkit__8d35a hasC
     box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.1) !important;
 }
 
-button[class="controlButton_ab2899 centerButton__3205b colorable_c84c4c red_a51ba8 button_afdfd9 lookBlank__7ca0a colorBrand_b2253e"] {
+/* button[class="controlButton_ab2899 centerButton__3205b colorable_c84c4c red_a51ba8 button_afdfd9 lookBlank__7ca0a colorBrand_b2253e"] {
+    background-color: rgba(var(--accentcolor-norgb), 1) !important;
+} */
+
+.controlButton_ab2899 > svg > foreignObject > div > button, .centerButton__3205b, .contextMenuNub__7c02f, .dot__67e1c  {
     background-color: rgba(var(--accentcolor-norgb), 1) !important;
 }
+
+/* button[class="staticButton__819a1 centerButton__3205b colorable_c84c4c white__10e89 button_afdfd9 lookBlank__7ca0a colorBrand_b2253e"] {
+    background-color: rgba(var(--accentcolor-norgb), 1) !important;
+} */
 
 section[class="theme-dark sidebarTabBar_a46dd2 container__11d72 themed_b152d4"] {
     background-color: var(--bg-primary) !important;
