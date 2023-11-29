@@ -566,7 +566,6 @@ span[data-slate-string="true"] {
 
 /* Custom DM selection look */
 div[class="interactive__776ee interactive_a868bc"]:hover {
-    border-bottom: 2px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(0deg,
             rgba(var(--accentcolor-norgb), 0.2),
             rgba(var(--accentcolor-norgb), 0.1),
