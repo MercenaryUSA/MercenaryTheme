@@ -706,6 +706,11 @@ div.text-md-normal__4afad {
     font-size: 12px;
 }
 
+.backdrop__7e89b {
+    background: rgba(20, 20, 20, 0.5) !important;
+    backdrop-filter: blur(25px);
+}
+
 /* Custom typing indicator */
 .typing__6fd1d {
     font-size: 0;
