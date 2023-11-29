@@ -22,7 +22,7 @@
 
     --font-global: 'Poppins', sans-serif; /* Default: 'Poppins', sans-serif */
 
-    --profile-username-color: var(--accentcolor);
+    --profile-username-color: var(--accentcolor); /* Default: var(--accentcolor) */
 
     --bg-primary: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
     --bg-secondary: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
@@ -51,9 +51,9 @@
 
     --typing-message-is: ' might say something...'; /* Default: ' might say something...' */
     --typing-message-are: ' might say something...'; /* Default: ' might say something...' */
-    --typing-message-color: rgba(var(--accentcolor-norgb), 1); /* Default: rgba(var(--accentcolor-norgb), 1) */
-    --typing-message-user-color: rgba(var(--accentcolor-norgb), 1); /* Default: rgba(var(--accentcolor-norgb), 1) */
-    --typing-indicator-channel-color: rgba(var(--accentcolor-norgb), 1); /* Default: rgba(var(--accentcolor-norgb), 1) */
+    --typing-message-color: var(--accentcolor); /* Default: var(--accentcolor) */
+    --typing-message-user-color: var(--accentcolor); /* Default: var(--accentcolor) */
+    --typing-indicator-channel-color: var(--accentcolor); /* Default: var(--accentcolor) */
     --typing-indicator-avatar-color: var(--accentcolor); /* Default: var(--accentcolor) */
 }
 

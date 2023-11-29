@@ -710,7 +710,6 @@ div.text-md-normal__4afad {
     font-size: 12px;
 }
 
-/* Custom backdrop */
 .backdrop__7e89b {
     background: rgba(20, 20, 20, 0.5) !important;
     backdrop-filter: blur(25px);
@@ -723,7 +722,7 @@ div.text-md-normal__4afad {
 
 .typing__6fd1d strong {
     font-size: 12px;
-    color: rgba(var(--accentcolor-norgb), 1);
+    color: var(--typing-message-user-color);
     font-family: var(--font-global);
 }
 
@@ -735,7 +734,7 @@ div.text-md-normal__4afad {
 
 .typing__6fd1d strong:nth-last-child(2)::after {
     content: 'and';
-    color: rgba(var(--accentcolor-norgb), 1);
+    color: var(--typing-message-color);
     font-weight: 400;
     font-size: 12px;
     font-family: var(--font-global);
@@ -743,7 +742,7 @@ div.text-md-normal__4afad {
 
 .typing__6fd1d strong:last-child::after {
     content: var(--typing-message-is);
-    color: rgba(var(--accentcolor-norgb), 1);
+    color: var(--typing-message-color);
     font-weight: 400;
     font-size: 12px;
     font-family: var(--font-global);
@@ -751,7 +750,7 @@ div.text-md-normal__4afad {
 
 .typing__6fd1d strong:nth-last-child()::after {
     content: var(--typing-message-are);
-    color: rgba(var(--accentcolor-norgb), 1);
+    color: var(--typing-message-color);
     font-weight: 400;
     font-size: 12px;
     font-family: var(--font-global);
@@ -766,7 +765,7 @@ div.text-md-normal__4afad {
 }
 
 .typingDots_d92d42>svg>g>circle {
-    color: rgba(var(--accentcolor-norgb), 1);
+    color: var(--typing-indicator-channel-color);
 }
 
 /* Custom style for code containers */
