@@ -62,6 +62,10 @@ div[class="scrollableContainer__33e06 themedBackground__6b1b6 webkit__8d35a hasC
     background-color: rgba(var(--accentcolor-norgb), 1) !important;
 }
 
+.flex_f5fbb7 {
+    background: none !important;
+}
+
 /* button[class="staticButton__819a1 centerButton__3205b colorable_c84c4c white__10e89 button_afdfd9 lookBlank__7ca0a colorBrand_b2253e"] {
     background-color: rgba(var(--accentcolor-norgb), 1) !important;
 } */
@@ -706,6 +710,7 @@ div.text-md-normal__4afad {
     font-size: 12px;
 }
 
+/* Custom backdrop */
 .backdrop__7e89b {
     background: rgba(20, 20, 20, 0.5) !important;
     backdrop-filter: blur(25px);
