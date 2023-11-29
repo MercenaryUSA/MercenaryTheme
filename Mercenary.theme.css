@@ -159,15 +159,6 @@ div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
     border: none;
 } */
 
-.contents_fb6220>svg {
-    transition: 0.3s ease;
-}
-
-div[class="flex_f5fbb7 horizontal__992f6 justifyStart__42744 alignStretch_e239ef noWrap__5c413"]>button:hover svg:hover {
-    transform:
-        scale(1.2) rotate(360deg);
-}
-
 div[class="rtcConnectionStatus__40882 rtcConnectionQualityFine__471b6"]>svg>path {
     color: var(--accentcolor) !important;
 }
@@ -449,7 +440,6 @@ foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
 /* Change the look of messages */
 .messageContent__21e69:not(.repliedTextContent__75526) {
     font-size: 13px;
-    width: fit-content;
     font-family: var(--font-global);
 }
 
@@ -468,7 +458,6 @@ foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
 /* .imageContainer__04362 {
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    width: fit-content;
 } */
 
 .username_d30d99 {
@@ -575,6 +564,23 @@ span[data-slate-string="true"] {
             transparent);
 }
 
+/* Custom DM selection look */
+div[class="interactive__776ee interactive_a868bc"]:hover {
+    border-bottom: 2px solid rgba(var(--accentcolor-norgb), 0.8);
+    background: linear-gradient(0deg,
+            rgba(var(--accentcolor-norgb), 0.2),
+            rgba(var(--accentcolor-norgb), 0.1),
+            transparent);
+}
+
+div[class="interactive__776ee interactive_a868bc interactiveSelected_ec846b selected_d94cf9"], div[class="interactive__776ee interactive_a868bc interactiveSelected_ec846b selected_d94cf9"]:hover {
+    border-bottom: 2px solid rgba(var(--accentcolor-norgb), 0.8);
+    background: linear-gradient(0deg,
+            rgba(var(--accentcolor-norgb), 0.3),
+            rgba(var(--accentcolor-norgb), 0.2),
+            transparent);
+}
+
 /* Hide AKA until hover */
 div[class="nicknames__7447d overflow__87fe8"] {
     filter: blur(5px);
@@ -586,7 +592,7 @@ div[class="nicknames__7447d overflow__87fe8"]:hover {
 }
 
 /* Add theme watermark to top left */
-.wordmarkWindows__05c46:after {
+div[class="wordmarkWindows__05c46 wordmark__0d178"]::after, div[class="wordmarkWindows__05c46 wordmark__0d178"]:hover::after {
     content: "Mercenary Edition";
     font-family: var(--font-global);
     font-size: 13px;
@@ -594,6 +600,7 @@ div[class="nicknames__7447d overflow__87fe8"]:hover {
     margin-left: 10px;
     position: relative;
     bottom: 4px;
+    transition: 0.3s ease;
 }
 
 /* Custom bot tag */
@@ -742,4 +749,29 @@ div.text-md-normal__4afad {
 
 code[class*="scrollbarGhostHairline_c9a45f scrollbar_d66c5e"] {
     background-color: var(--bg-messagebox);
+}
+
+/* Button animations */
+.winButton__88672>svg {
+    transition: 0.3s ease;
+}
+
+.winButton__88672:hover > svg {
+    transform: rotate(45deg);
+}
+
+.listeningAlong_f20fb2 > .icons__9ad68 > button > div > svg {
+    transition: 0.3s ease;
+}
+
+.listeningAlong_f20fb2 > .icons__9ad68 > button:hover > div > svg {
+    transform: rotate(45deg);
+}
+
+.container_ca50b9 > div > button > div > svg {
+    transition: 0.3s ease;
+}
+
+.container_ca50b9 > div > button:hover > div > svg {
+    transform: rotate(360deg);
 }
