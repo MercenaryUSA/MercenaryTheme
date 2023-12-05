@@ -728,12 +728,12 @@ div.text-md-normal__4afad {
 
 .typing__6fd1d strong:after {
     font-size: 12px;
-    content: ',';
+    content: ', ';
     font-family: var(--font-global);
 }
 
 .typing__6fd1d strong:nth-last-child(2)::after {
-    content: 'and';
+    content: ' and ';
     color: var(--typing-message-color);
     font-weight: 400;
     font-size: 12px;
