@@ -249,7 +249,7 @@ a::after {
 }
 
 /* Apply online status glow to DM list */
-/* .layout__59abc>.avatar__7bd22>.wrapper_edb6e0[aria-label*="Online via mobile"] {
+.layout__59abc>.avatar__7bd22>.wrapper_edb6e0[aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
@@ -295,10 +295,10 @@ a::after {
 
 .wrapper_edb6e0[aria-label*="Streaming"] .dots_a97068 {
     color: var(--rs-streaming-color, #643da7);
-} */
+}
 
 /* Apply online status glow to guild members list */
-/* .avatar__6337f>.wrapper_edb6e0[aria-label*="Online via mobile"] {
+.avatar__6337f>.wrapper_edb6e0[aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
@@ -320,10 +320,10 @@ a::after {
 
 .avatar__6337f>.wrapper_edb6e0[aria-label*="Streaming"] {
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
-} */
+}
 
 /* Apply status glow to bottom left avatar */
-/* div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Online via mobile"] {
+div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
@@ -345,10 +345,10 @@ div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Do Not Disturb"] {
 
 div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Streaming"] {
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
-} */
+}
 
 /* Adjust avatar position and apply status glow to friends list avatars */
-/* div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Online via mobile"] {
+div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
     margin: 5px 10px 5px 5px;
 }
@@ -410,7 +410,7 @@ div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Streaming"]>svg[class="ma
 
 foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
     visibility: hidden;
-} */
+}
 
 /* Change the look of themes list */
 .bd-addon-card {
