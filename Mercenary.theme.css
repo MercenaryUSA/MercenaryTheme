@@ -406,11 +406,11 @@ div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Do Not Disturb"]>svg[clas
 div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Streaming"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
     border-radius: var(--rs-avatar-shape);
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
-} */
+} 
 
 foreignObject[mask*="url(#svg-mask-avatar-status-mobile-"]::after {
     visibility: hidden;
-}
+} */
 
 /* Change the look of themes list */
 .bd-addon-card {

@@ -13,7 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&display=swap');
 
 /* Addons */
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+/* @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css'); */
 
 :root {
     /* When changing the --accentcolor, be sure to adjust the values for --accentcolor-norgb to match --accentcolor */
