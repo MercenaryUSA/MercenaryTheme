@@ -425,10 +425,10 @@ div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Streaming"]>svg[class="ma
 
 /* Fix avatar display at top of DM list */
 div[class="wrapper_edb6e0 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] > foreignObject {
-    x: 1.5;
-    y: 3;
-    height: 22px;
-    width: 22px;
+    x: 3;
+    y: 4;
+    height: 20px;
+    width: 20px;
 }
 
 /* Change the look of themes list */
