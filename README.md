@@ -2,6 +2,6 @@
 
 An elegant _dark mode_ theme.
 
-# Known Issues
+# Changelog
 
-SpotifyControls by DevilBro is not supported.
+- Removed the custom location for the user profile popout.
