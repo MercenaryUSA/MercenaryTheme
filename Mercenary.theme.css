@@ -87,7 +87,7 @@ div[class="container__99b06 mainCard__8a660"]:has(.isOpen__8593d) {
             transparent) !important;
 }
 
-.card__691f2:hover > div {
+.card__691f2 > div[class="container__99b06 mainCard__8a660"]:hover {
     background: linear-gradient(0deg,
             rgba(var(--accentcolor-norgb), 0.2),
             rgba(var(--accentcolor-norgb), 0.1),
