@@ -54,6 +54,8 @@ div[class="scrollableContainer__33e06 themedBackground__6b1b6 webkit__8d35a hasC
     font-family: var(--font-global) !important;
 }
 
+/* Custom background for forum channels */
+
 div[class="list__5ced9 auto_a48086 scrollerBase_dc3aa9"] {
     background-color: var(--bg-primary);
 }
@@ -65,6 +67,31 @@ section[class="title_b7d661 forumOrHome__75784 container__11d72 themed_b152d4"] 
 div[class="container__99b06 mainCard__8a660"] {
     border: 1px solid var(--border-forum-post);
     box-shadow: 0px 0px 5px 0px var(--border-forum-post);
+}
+
+/* Custom hover/selection for forum channels */
+div[class="container__99b06 mainCard__8a660"]:has(.isOpen__8593d) {
+    border: 1px solid rgba(var(--accentcolor-norgb), 0.8);
+    background: linear-gradient(0deg,
+            rgba(var(--accentcolor-norgb), 0.3),
+            rgba(var(--accentcolor-norgb), 0.2),
+            transparent);
+}
+
+.card__691f2 > .isOpen__8593d {
+    border: none;
+    border-bottom: 2px solid rgba(var(--accentcolor-norgb), 0.8);
+    background: linear-gradient(0deg,
+            rgba(var(--accentcolor-norgb), 0.3),
+            rgba(var(--accentcolor-norgb), 0.2),
+            transparent) !important;
+}
+
+.card__691f2:hover > div {
+    background: linear-gradient(0deg,
+            rgba(var(--accentcolor-norgb), 0.2),
+            rgba(var(--accentcolor-norgb), 0.1),
+            transparent);
 }
 
 /* button[class="controlButton_ab2899 centerButton__3205b colorable_c84c4c red_a51ba8 button_afdfd9 lookBlank__7ca0a colorBrand_b2253e"] {
