@@ -591,8 +591,8 @@ span[data-slate-string="true"] {
     font-size: 13px;
 }
 
-/* Highlight user when there is an unread DM */
-.link__2e8e1:has(.highlighted__7bba7) {
+/* Highlight user when there is an unread DM / channel message */
+.link__2e8e1:has(.highlighted__7bba7), .modeUnreadImportant_efb53e:has(.mentionsBadge_c2f85b) {
     border-left: 2px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(90deg,
             rgba(var(--accentcolor-norgb), 0.3),
