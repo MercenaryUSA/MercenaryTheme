@@ -54,6 +54,19 @@ div[class="scrollableContainer__33e06 themedBackground__6b1b6 webkit__8d35a hasC
     font-family: var(--font-global) !important;
 }
 
+div[class="list__5ced9 auto_a48086 scrollerBase_dc3aa9"] {
+    background-color: var(--bg-primary);
+}
+
+section[class="title_b7d661 forumOrHome__75784 container__11d72 themed_b152d4"] {
+    background-color: var(--bg-primary) !important;
+}
+
+div[class="container__99b06 mainCard__8a660"] {
+    border: 1px solid var(--border-forum-post);
+    box-shadow: 0px 0px 5px 0px var(--border-forum-post);
+}
+
 /* button[class="controlButton_ab2899 centerButton__3205b colorable_c84c4c red_a51ba8 button_afdfd9 lookBlank__7ca0a colorBrand_b2253e"] {
     background-color: rgba(var(--accentcolor-norgb), 1) !important;
 } */

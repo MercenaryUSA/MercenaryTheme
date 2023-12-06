@@ -30,6 +30,8 @@
     --bg-tertiary: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
     --bg-messagebox: rgba(25, 25, 25, 1); /* Default: rgba(25, 25, 25, 1); */
 
+    --border-forum-post: rgba(35, 35, 35, 1); /* Default: rgba(35, 35, 35, 1); */
+
     --mention-highlight: rgba(114, 137, 218, 0.2); /* Default: rgba(114, 137, 218, 0.2); */
     --mention-sidebar: rgba(114, 137, 218, 0.5); /* Default: rgba(114, 137, 218, 0.5); */
 
