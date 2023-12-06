@@ -861,3 +861,15 @@ code[class*="scrollbarGhostHairline_c9a45f scrollbar_d66c5e"] {
 .container_ca50b9 > div > button:hover > div > svg {
     transform: rotate(360deg);
 }
+
+/* Add theme watermark and style it (also styles username in settings panel) */
+.info__755e1::after {
+    content: "Mercenary Theme";
+    color: var(--accentcolor);
+    font-size: 11px;
+    background-image: url("https://static.cracked.io/images/bg1.gif");
+}
+
+.userTag__4ca14, .nickname__3d1d7 {
+    background-image: url("https://static.cracked.io/images/bg1.gif");
+}
