@@ -17,3 +17,4 @@ An elegant _dark mode_ theme.
 - Custom font that's applied across all of Discord. (Poppins)
 - Custom backdrop when modals are open. (Blurred instead of darkened)
 - Custom radial status.
+- Custom typing indicator messages (matches accent color too)
