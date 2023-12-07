@@ -16,3 +16,4 @@ An elegant _dark mode_ theme.
 - Custom notification badge color (matches accent color) (Preview: https://puu.sh/JWaOa/15b408afc9.png)
 - Custom font that's applied across all of Discord. (Poppins)
 - Custom backdrop when modals are open. (Blurred instead of darkened)
+- Custom radial status.
