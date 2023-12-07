@@ -481,6 +481,7 @@ div[class="wrapper_edb6e0 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] 
 #Mercenary-card>.bd-addon-header>.bd-title {
     color: var(--accentcolor);
     font-size: 24px;
+    background-image: url("https://static.cracked.io/images/bg1.gif");
 }
 
 #Mercenary-card>.bd-description-wrap>.bd-description {
