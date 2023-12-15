@@ -468,6 +468,11 @@ svg[class="mask__1979f svg_f5b652"] > circle {
     display: none;
 }
 
+/* Remove the status indicator from the bottom left profile picture */
+svg[class="mask__1979f svg_f5b652"] > svg {
+    display: none;
+}
+
 /* Fix avatar display at top of DM list */
 div[class="wrapper_edb6e0 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] > foreignObject {
     x: 3;
