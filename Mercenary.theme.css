@@ -910,3 +910,35 @@ code[class*="scrollbarGhostHairline_c9a45f scrollbar_d66c5e"] {
     background-color: var(--bg-messagebox);
     border-radius: 5px;
 }
+
+/* Allow custom status text */
+.status__8c19b {
+    font-size: 0px;
+    content: "";
+}
+
+.description_ea6680 {
+    font-family: Poppins;
+    font-size: 11px;
+}
+
+#account-status-picker--online .status__8c19b:after {
+    content: var(--status-text-online);
+    font-size: 13px;
+    font-family: Poppins;
+}
+#account-status-picker--idle .status__8c19b:after {
+    content: var(--status-text-idle);
+    font-size: 13px;
+    font-family: Poppins;
+}
+#account-status-picker--dnd .status__8c19b:after {
+    content: var(--status-text-dnd);
+    font-size: 13px;
+    font-family: Poppins;
+}
+#account-status-picker--invisible .status__8c19b:after {
+    content: var(--status-text-invisible);
+    font-size: 13px;
+    font-family: Poppins;
+}

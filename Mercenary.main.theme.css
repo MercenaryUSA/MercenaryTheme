@@ -57,6 +57,11 @@
     --typing-message-user-color: var(--accentcolor); /* Default: var(--accentcolor) */
     --typing-indicator-channel-color: var(--accentcolor); /* Default: var(--accentcolor) */
     --typing-indicator-avatar-color: var(--accentcolor); /* Default: var(--accentcolor) */
+
+    --status-text-online: 'Online'; /* Default: 'Online' */
+    --status-text-idle: 'Idle'; /* Default: 'Idle' */
+    --status-text-dnd: 'Do Not Disturb'; /* Default: 'Do Not Disturb' */
+    --status-text-invisible: 'Invisible'; /* Default: 'Offline' */
 }
 
 /* Change to show/hide your online status in bottom left avatar */
