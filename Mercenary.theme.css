@@ -572,6 +572,11 @@ div[class="container__871ba default-colors checked__6bdb0"] {
     font-size: 15px;
 }
 
+/* Make bolded text brighter (mainly for MacOS, since <strong> elements don't properly render) */
+.messageContent__21e69 > strong {
+    color: rgb(230, 230, 230);
+}
+
 /* Add timestamps to edited messages */
 .timestamp_cdbd93:not(.timestampInline__470e0, .timestampVisibleOnHover_e8cc6d) time::after {
     content: " (" attr(aria-label) ")";
