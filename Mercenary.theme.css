@@ -513,7 +513,7 @@ h2[class="defaultColor__77578 heading-lg-semibold_a200cd vc-m-bottom-16"]::after
     margin-left: 125px;
     color: var(--accentcolor);
     background-image: url("https://static.cracked.io/images/bg1.gif");
-    font-family: Poppins;
+    font-family: var(--font-global);
 }
 
 div[class="vc-settings-card cardPrimary_cb7a0e card__4dc22"]::after {
@@ -923,27 +923,27 @@ code[class*="scrollbarGhostHairline_c9a45f scrollbar_d66c5e"] {
 }
 
 .description_ea6680 {
-    font-family: Poppins;
+    font-family: var(--font-global);
     font-size: 11px;
 }
 
 #account-status-picker--online .status__8c19b:after {
     content: var(--status-text-online);
     font-size: 13px;
-    font-family: Poppins;
+    font-family: var(--font-global);
 }
 #account-status-picker--idle .status__8c19b:after {
     content: var(--status-text-idle);
     font-size: 13px;
-    font-family: Poppins;
+    font-family: var(--font-global);
 }
 #account-status-picker--dnd .status__8c19b:after {
     content: var(--status-text-dnd);
     font-size: 13px;
-    font-family: Poppins;
+    font-family: var(--font-global);
 }
 #account-status-picker--invisible .status__8c19b:after {
     content: var(--status-text-invisible);
     font-size: 13px;
-    font-family: Poppins;
+    font-family: var(--font-global);
 }
