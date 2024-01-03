@@ -10,7 +10,8 @@
 @import url('https://mercenaryusa.github.io/MercenaryTheme/Mercenary.theme.css');
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&display=swap'); /* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); /* Inter */
 
 /* Addons */
 /* @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css'); */
@@ -20,7 +21,7 @@
     --accentcolor: rgb(114, 137, 218); /* Default: rgb(114, 137, 218); */
     --accentcolor-norgb: 114, 137, 218; /* Default: 114, 137, 218 */
 
-    --font-global: 'Poppins', sans-serif; /* Default: 'Poppins', sans-serif */
+    --font-global: 'Inter', sans-serif; /* Default: 'Inter', sans-serif */
 
     --profile-username-color: var(--accentcolor); /* Default: var(--accentcolor) */
 
