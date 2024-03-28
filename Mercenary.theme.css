@@ -553,7 +553,7 @@ div[class="container__871ba default-colors checked__6bdb0"] {
 }
 
 /* Change the look of messages */
-.messageContent_abea64:not(.repliedTextContent__75526) {
+.messageContent_abea64:not(.repliedTextContent_b12fe1) {
     font-size: 13px;
     font-family: var(--font-global);
 }
