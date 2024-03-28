@@ -129,7 +129,7 @@ div[class="control_f6cce7"]>div[class="container__871ba checked__6bdb0"] {
 }
 
 /* Custom user profile panel */
-div[class="avatarWrapper_ba5175 withTagAsButton_cc125f"]:hover {
+div[class="avatarWrapper__500a6 withTagAsButton_e22174"]:hover {
     background: none;
 }
 
@@ -137,7 +137,7 @@ div[class="avatarWrapper_ba5175 withTagAsButton_cc125f"]:hover {
     display: none;
 }
 
-div[class="nameTag__0e320 canCopy__81263"]>div[class="panelTitleContainer__7a748"]>div[class="text-sm-normal_e612c7 title__10613"][data-text-variant="text-sm/normal"] {
+div[class="nameTag__77ab2 canCopy__8ec33"]>div[class="panelTitleContainer__8e644"]>div[class="text-sm-normal__95a78 title__4a7a9"][data-text-variant="text-sm/normal"] {
     color: var(--profile-username-color);
 }
 
@@ -703,7 +703,7 @@ div[class="nicknames__7447d overflow__87fe8"]:hover {
 }
 
 /* Add theme watermark to top left */
-div[class="wordmarkWindows__05c46 wordmark__0d178"]::after, div[class="wordmarkWindows__05c46 wordmark__0d178"]:hover::after {
+div[class="wordmarkWindows_ffbc5e wordmark__5b8c9"]::after, div[class="wordmarkWindows_ffbc5e wordmark__5b8c9"]:hover::after {
     content: "Mercenary Edition";
     font-family: var(--font-global);
     font-size: 13px;
@@ -733,7 +733,7 @@ input[class="inputDefault__80165 input_d266e7 messageInput__3b049 input__95bc4"]
 }
 
 /* Custom font for channels */
-div[class="name__8d1ec overflow__87fe8"] {
+div[class="name__4eb92 overflow__993fa"] {
     font-family: var(--font-global);
     font-size: 13px;
     font-weight: bold;
@@ -751,13 +751,19 @@ h1.title__9e2b0 {
     font-weight: bold;
 }
 
+.link_ddbb36 {
+    font-family: var(--font-global);
+    font-size: 13px;
+    font-weight: bold;
+}
+
 /* Custom font for submenu's */
-.label__73cb9 {
+.label__563c3 {
     font-family: var(--font-global);
     font-size: 13px;
 }
 
-/* Custom font for settings menu */
+/* Custom font for settings menu (BROKEN WITH UPDATE AS OF 20240328 -- NEED TO FIX) */
 .side_b4b3f6 {
     font-family: var(--font-global);
 }
@@ -788,13 +794,13 @@ div.text-md-normal__4afad {
 }
 
 /* Custom font for usernames in DM list */
-.name__02dbd {
+.name_f842e4 {
     font-family: var(--font-global);
     font-size: 14px;
 }
 
 /* Custom font for activity in DM list */
-.activityText__84949 {
+.activityText__56d3b {
     font-family: var(--font-global);
     font-size: 10px;
 }
@@ -890,11 +896,11 @@ code[class*="scrollbarGhostHairline_c9a45f scrollbar_d66c5e"] {
     transform: rotate(45deg);
 }
 
-.container_ca50b9 > div > button > div > svg {
+.container_debb33 > div > button > div > svg {
     transition: 0.3s ease;
 }
 
-.container_ca50b9 > div > button:hover > div > svg {
+.container_debb33 > div > button:hover > div > svg {
     transform: rotate(360deg);
 }
 
