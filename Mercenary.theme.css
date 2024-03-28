@@ -18,24 +18,24 @@ div[class="upperContainer__993ba"]>div[class="children__32014"]::after {
     display: none;
 }
 
-section[class="theme-dark container__11d72 themed_b152d4"] {
+section[class="theme-dark container__26baa themed_b152d4"] {
     padding: 0;
     width: 100%;
 }
 
-section[class="theme-dark container__11d72 themed_b152d4"]>div[class="upperContainer__993ba"] {
+section[class="theme-dark container__26baa themed_b152d4"]>div[class="upperContainer__57565"] {
     background-color: var(--bg-primary);
 }
 
-div[class="channelTextArea__2e60f channelTextArea__56a36"] {
+div[class="channelTextArea_c2094b channelTextArea__648e5"] {
     background-color: var(--bg-messagebox);
 }
 
-div[class="scrollableContainer__33e06 themedBackground__6b1b6 webkit__8d35a"] {
+div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a"] {
     background-color: var(--bg-messagebox);
 }
 
-div[class="scrollableContainer__33e06 themedBackground__6b1b6 webkit__8d35a hasConnectedBar__277ab"] {
+div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a hasConnectedBar__277ab"] {
     background-color: var(--bg-messagebox);
 }
 
@@ -249,172 +249,172 @@ a::after {
 }
 
 /* Apply online status glow to DM list */
-.layout__59abc>.avatar__7bd22>.wrapper_edb6e0[aria-label*="Online via mobile"] {
+.layout__59abc>.avatar__7bd22>.wrapper__3ed10[aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-.layout__59abc>.avatar__7bd22>.wrapper_edb6e0[aria-label*="Online"] {
+.layout__59abc>.avatar__7bd22>.wrapper__3ed10[aria-label*="Online"] {
     box-shadow: 0 0px 3px 3px var(--rs-online-color, #1df594);
 }
 
-.layout__59abc>.avatar__7bd22>.wrapper_edb6e0[aria-label*="Idle"] {
+.layout__59abc>.avatar__7bd22>.wrapper__3ed10[aria-label*="Idle"] {
     box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
 }
 
-.layout__59abc>.avatar__7bd22>.wrapper_edb6e0[aria-label*="Offline"] {
+.layout__59abc>.avatar__7bd22>.wrapper__3ed10[aria-label*="Offline"] {
     box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
 }
 
-.layout__59abc>.avatar__7bd22>.wrapper_edb6e0[aria-label*="Do Not Disturb"] {
+.layout__59abc>.avatar__7bd22>.wrapper__3ed10[aria-label*="Do Not Disturb"] {
     box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
 }
 
-.layout__59abc>.avatar__7bd22>.wrapper_edb6e0[aria-label*="Streaming"] {
+.layout__59abc>.avatar__7bd22>.wrapper__3ed10[aria-label*="Streaming"] {
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
 }
 
-.wrapper_edb6e0[aria-label*="Online via mobile"] .dots_a97068 {
+.wrapper__3ed10[aria-label*="Online via mobile"] .dots_a97068 {
     color: var(--rs-online-color, #1df594);
 }
 
-.wrapper_edb6e0[aria-label*="Online"] .dots_a97068 {
+.wrapper__3ed10[aria-label*="Online"] .dots_a97068 {
     color: var(--rs-online-color, #1df594);
 }
 
-.wrapper_edb6e0[aria-label*="Idle"] .dots_a97068 {
+.wrapper__3ed10[aria-label*="Idle"] .dots_a97068 {
     color: var(--rs-idle-color, #faa61a);
 }
 
-.wrapper_edb6e0[aria-label*="Offline"] .dots_a97068 {
+.wrapper__3ed10[aria-label*="Offline"] .dots_a97068 {
     color: var(--rs-offline-color, #636b75);
 }
 
-.wrapper_edb6e0[aria-label*="Do Not Disturb"] .dots_a97068 {
+.wrapper__3ed10[aria-label*="Do Not Disturb"] .dots_a97068 {
     color: var(--rs-dnd-color, #ee3d3d);
 }
 
-.wrapper_edb6e0[aria-label*="Streaming"] .dots_a97068 {
+.wrapper__3ed10[aria-label*="Streaming"] .dots_a97068 {
     color: var(--rs-streaming-color, #643da7);
 }
 
 /* Apply online status glow to guild members list */
-.avatar__6337f>.wrapper_edb6e0[aria-label*="Online via mobile"] {
+.avatar__6337f>.wrapper__3ed10[aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-.avatar__6337f>.wrapper_edb6e0[aria-label*="Online"] {
+.avatar__6337f>.wrapper__3ed10[aria-label*="Online"] {
     box-shadow: 0 0px 3px 3px var(--rs-online-color, #1df594);
 }
 
-.avatar__6337f>.wrapper_edb6e0[aria-label*="Idle"] {
+.avatar__6337f>.wrapper__3ed10[aria-label*="Idle"] {
     box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
 }
 
-.avatar__6337f>.wrapper_edb6e0[aria-label*="Offline"] {
+.avatar__6337f>.wrapper__3ed10[aria-label*="Offline"] {
     box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
 }
 
-.avatar__6337f>.wrapper_edb6e0[aria-label*="Do Not Disturb"] {
+.avatar__6337f>.wrapper__3ed10[aria-label*="Do Not Disturb"] {
     box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
 }
 
-.avatar__6337f>.wrapper_edb6e0[aria-label*="Streaming"] {
+.avatar__6337f>.wrapper__3ed10[aria-label*="Streaming"] {
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
 }
 
 /* Apply status glow to bottom left avatar */
-div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Online via mobile"] {
+div[class="wrapper__3ed10 avatar_f8541f"][aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Online"] {
+div[class="wrapper__3ed10 avatar_f8541f"][aria-label*="Online"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Idle"] {
+div[class="wrapper__3ed10 avatar_f8541f"][aria-label*="Idle"] {
     box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
 }
 
-div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Offline"] {
+div[class="wrapper__3ed10 avatar_f8541f"][aria-label*="Offline"] {
     box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
 }
 
-div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Do Not Disturb"] {
+div[class="wrapper__3ed10 avatar_f8541f"][aria-label*="Do Not Disturb"] {
     box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
 }
 
-div[class="wrapper_edb6e0 avatar_f8541f"][aria-label*="Streaming"] {
+div[class="wrapper__3ed10 avatar_f8541f"][aria-label*="Streaming"] {
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
 }
 
 /* Adjust avatar position and apply status glow to friends list avatars */
-div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Online via mobile"] {
+div[class="wrapper__3ed10 avatar__8986c"][aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
     margin: 5px 10px 5px 5px;
 }
 
-div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Online"] {
+div[class="wrapper__3ed10 avatar__8986c"][aria-label*="Online"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
     margin: 5px 10px 5px 5px;
 }
 
-div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Idle"] {
+div[class="wrapper__3ed10 avatar__8986c"][aria-label*="Idle"] {
     box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
     margin: 5px 10px 5px 5px;
 }
 
-div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Offline"] {
+div[class="wrapper__3ed10 avatar__8986c"][aria-label*="Offline"] {
     box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
     margin: 5px 10px 5px 5px;
 }
 
-div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Do Not Disturb"] {
+div[class="wrapper__3ed10 avatar__8986c"][aria-label*="Do Not Disturb"] {
     box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
     margin: 5px 10px 5px 5px;
 }
 
-div[class="wrapper_edb6e0 avatar__8986c"][aria-label*="Streaming"] {
+div[class="wrapper__3ed10 avatar__8986c"][aria-label*="Streaming"] {
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
     margin: 5px 10px 5px 5px;
 }
 
-div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Online via mobile"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
+div[class="wrapper__3ed10 avatar__7c789"][aria-label*="Online via mobile"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
     border-radius: var(--rs-avatar-shape);
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Online"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
+div[class="wrapper__3ed10 avatar__7c789"][aria-label*="Online"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
     border-radius: var(--rs-avatar-shape);
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Idle"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
+div[class="wrapper__3ed10 avatar__7c789"][aria-label*="Idle"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
     border-radius: var(--rs-avatar-shape);
     box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
 }
 
-div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Offline"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
+div[class="wrapper__3ed10 avatar__7c789"][aria-label*="Offline"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
     border-radius: var(--rs-avatar-shape);
     box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
 }
 
-div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Do Not Disturb"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
+div[class="wrapper__3ed10 avatar__7c789"][aria-label*="Do Not Disturb"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
     border-radius: var(--rs-avatar-shape);
     box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
 }
 
-div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Streaming"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
+div[class="wrapper__3ed10 avatar__7c789"][aria-label*="Streaming"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
     border-radius: var(--rs-avatar-shape);
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
 }
 
 /* Remove phone icon and default status indicators */
 
-.wrapper_edb6e0 > svg > rect {
+.wrapper__3ed10 > svg > rect {
     display: none;
 }
 
-.wrapper_edb6e0 foreignObject {
+.wrapper__3ed10 foreignObject {
     border-radius: 50px;
     mask: none;
 }
@@ -424,7 +424,7 @@ div[class="wrapper_edb6e0 avatar__7c789"][aria-label*="Streaming"]>svg[class="ma
 }
 
 /* Fix avatar display at top of DM list */
-div[class="wrapper_edb6e0 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] > foreignObject {
+div[class="wrapper__3ed10 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] > foreignObject {
     x: 3;
     y: 4;
     height: 20px;
