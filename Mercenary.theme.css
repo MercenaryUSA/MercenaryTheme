@@ -56,7 +56,7 @@ div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a hasC
 
 /* Custom background for forum channels */
 
-div[class="list__5ced9 auto_a48086 scrollerBase_dc3aa9"] {
+div[class="list__5ced9 auto_a3c0bd scrollerBase_f742b2"] {
     background-color: var(--bg-primary);
 }
 
@@ -64,7 +64,7 @@ section[class="title_b7d661 forumOrHome__75784 container__11d72 themed_b152d4"] 
     background-color: var(--bg-primary) !important;
 }
 
-div[class="container__99b06 mainCard__8a660"] {
+div[class="container_de2a56 mainCard__0ec2c"] {
     border: 1px solid var(--border-forum-post);
     box-shadow: 0px 0px 5px 0px var(--border-forum-post);
 }
@@ -536,35 +536,35 @@ div[class="container__871ba default-colors checked__6bdb0"] {
 }
 
 /* Nicer mention highlight (custom color and removes gradient)*/
-.theme-dark .mentioned__58017:before {
+.theme-dark .mentioned_fa6fd2:before {
     background: linear-gradient(90deg, var(--mention-sidebar), var(--mention-sidebar)) !important;
 }
 
-.theme-dark .mentioned__58017 {
+.theme-dark .mentioned_fa6fd2 {
     background: linear-gradient(90deg,
             rgba(var(--accentcolor-norgb), 0.2),
             var(--bg-primary)) !important;
 }
 
-.theme-dark .mentioned__58017:hover {
+.theme-dark .mentioned_fa6fd2:hover {
     background: linear-gradient(90deg,
             rgba(var(--accentcolor-norgb), 0.3),
             var(--bg-primary)) !important;
 }
 
 /* Change the look of messages */
-.messageContent__21e69:not(.repliedTextContent__75526) {
+.messageContent_abea64:not(.repliedTextContent__75526) {
     font-size: 13px;
     font-family: var(--font-global);
 }
 
-.repliedTextPreview__90311 {
+.repliedTextPreview__1a8a4 {
     color: grey;
     font-family: var(--font-global);
     font-size: 13px;
 }
 
-.repliedTextContent__75526 {
+.repliedTextContent_b12fe1 {
     color: grey;
     font-family: var(--font-global);
     font-size: 13px;
@@ -676,12 +676,16 @@ span[data-slate-string="true"] {
 }
 
 /* Highlight user when there is an unread DM / channel message */
-.link__3a950:has(.highlighted_e2e5df), .modeUnreadImportant_efb53e:has(.mentionsBadge_c2f85b) {
+.link__3a950:has(.highlighted_e2e5df), .modeUnreadImportant__35358:has(.mentionsBadge__3d019) {
     border-left: 2px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(90deg,
             rgba(var(--accentcolor-norgb), 0.3),
             rgba(var(--accentcolor-norgb), 0.2),
             transparent);
+}
+
+.unread__48cf4 .unreadImportant_e8bb44 {
+    background-color: rgba(var(--accentcolor-norgb), 0.8);
 }
 
 /* Custom DM selection look */
