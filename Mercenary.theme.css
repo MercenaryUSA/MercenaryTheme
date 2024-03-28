@@ -897,12 +897,12 @@ code[class*="scrollbarGhostHairline__00100 scrollbar_b61b2b"] {
     transform: rotate(45deg);
 }
 
-.container_debb33 > div > button > div > svg {
-    transition: 0.3s ease;
+.container_debb33 > div > button > div > div > svg {
+    transition: 0.3s ease !important;
 }
 
-.container_debb33 > div > button:hover > div > svg {
-    transform: rotate(360deg);
+.container_debb33 > div > button:hover > div > div > svg {
+    transform: rotate(360deg) !important;
 }
 
 /* Add theme watermark and style it (also styles username in settings panel) */
