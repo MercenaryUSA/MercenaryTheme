@@ -516,7 +516,7 @@ div[class="wrapper__3ed10 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] 
 }
 
 /* Change the look of themes list - Vencord */
-h2[class="defaultColor__77578 heading-lg-semibold_a200cd vc-m-bottom-16"]::after {
+h2[class="defaultColor__30336 heading-lg-semibold__58a54 vc-m-bottom-16"]::after {
     content: "Mercenary Theme Activated";
     margin-left: 125px;
     color: var(--accentcolor);
@@ -524,7 +524,7 @@ h2[class="defaultColor__77578 heading-lg-semibold_a200cd vc-m-bottom-16"]::after
     font-family: var(--font-global);
 }
 
-div[class="vc-settings-card cardPrimary_cb7a0e card__4dc22"]::after {
+div[class="vc-settings-card cardPrimary__1ee6a card__4dc22"]::after {
     content: "MercenaryTheme: You can change your --accentcolor inside the Mercenary.main.theme.css file.";
     color: var(--accentcolor);
     font-size: 14px;
