@@ -124,7 +124,7 @@ div[class="control_f6cce7"]>div[class="container__871ba checked__6bdb0"] {
 }
 
 /* Remove all scrollbars */
-.scrollerBase_dc3aa9:not(.scroller__750f5)::-webkit-scrollbar {
+.scrollerBase_f742b:not(.scroller__750f5)::-webkit-scrollbar {
     display: none;
 }
 
@@ -727,7 +727,7 @@ div[class="wordmarkWindows_ffbc5e wordmark__5b8c9"]::after, div[class="wordmarkW
 }
 
 /* Custom bot tag */
-span[class="botTag_a52f38 botTagRegular_c89c9a botTag__4211a px__97c6b"] {
+span[class="botTag_a52f38 botTagRegular_fc4b4a botTag__4211a px__7f04f"] {
     border-radius: 5px;
     box-shadow: -3px 3px 5px 2px rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -882,12 +882,12 @@ div.text-md-normal__4afad {
 }
 
 /* Custom style for code containers */
-.codeContainer__1ded4 {
+.codeContainer__49b46 {
     width: fit-content;
     border-radius: 5px;
 }
 
-code[class*="scrollbarGhostHairline_c9a45f scrollbar_d66c5e"] {
+code[class*="scrollbarGhostHairline__00100 scrollbar_b61b2b"] {
     background-color: var(--bg-messagebox);
 }
 
@@ -917,19 +917,19 @@ code[class*="scrollbarGhostHairline_c9a45f scrollbar_d66c5e"] {
 }
 
 /* Add theme watermark and style it (also styles username in settings panel) */
-.info__755e1::after {
+.info__40462::after {
     content: "Mercenary Theme";
     color: var(--accentcolor);
     font-size: 11px;
     background-image: url("https://static.cracked.io/images/bg1.gif");
 }
 
-.userTag__4ca14, .nickname__3d1d7 {
+.userTag__28f9c, .nickname_db3773 {
     background-image: url("https://static.cracked.io/images/bg1.gif");
 }
 
 /* Change background for embeds */
-.gridContainer_de8cdc {
+.gridContainer_e31d85 {
     background-color: var(--bg-messagebox);
     border-radius: 5px;
 }
