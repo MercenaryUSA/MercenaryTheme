@@ -574,7 +574,7 @@ div[class="container__871ba default-colors checked__6bdb0"] {
 }
 
 /* Add timestamps to edited messages */
-.timestamp_cdbd93:not(.timestampInline__470e0, .timestampVisibleOnHover_e8cc6d) time::after {
+.timestamp_c79dd2:not(.timestampInline__430cf, .timestampVisibleOnHover__1679f) time::after {
     content: " (" attr(aria-label) ")";
     color: var(--text-muted);
     font-size: 0.625rem;
