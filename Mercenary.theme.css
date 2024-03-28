@@ -905,7 +905,7 @@ code[class*="scrollbarGhostHairline__00100 scrollbar_b61b2b"] {
 }
 
 /* Add theme watermark and style it (also styles username in settings panel) */
-.info__40462::after {
+.info__755e1::after {
     content: "Mercenary Theme";
     color: var(--accentcolor);
     font-size: 11px;
