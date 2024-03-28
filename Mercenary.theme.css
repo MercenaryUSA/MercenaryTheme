@@ -229,7 +229,6 @@ li[class="containerDefault_ae2ea4 selected__11b62"]>div>div>a[class="link_ddbb36
     background: none !important;
 }
 
-
 .typeVoice_f4ba92>div>a {
     background: none !important;
 }
@@ -242,7 +241,7 @@ li[class="containerDefault_ae2ea4 selected__11b62"]>div>div>a[class="link_ddbb36
             var(--bg-primary)) !important;
 }
 
-li[class="containerDefault_ae2ea4 selected__11b6"]>div>div>a::before,
+li[class="containerDefault_ae2ea4 selected__11b62"]>div>div>a::before,
 a::after {
     border-radius: 5px;
     border-bottom: 2px solid rgba(var(--accentcolor-norgb), 0.8);
@@ -673,8 +672,8 @@ span[data-slate-string="true"] {
             transparent);
 }
 
-.unread__48cf4 .unreadImportant_e8bb44 {
-    background-color: rgba(var(--accentcolor-norgb), 0.8);
+.unread__48cf4, .unreadImportant_e8bb44 {
+    display: none;
 }
 
 /* Custom DM selection look */
