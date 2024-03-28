@@ -454,6 +454,14 @@ div[class="wrapper__3ed10 avatar__7c789"][aria-label*="Streaming"]>svg[class="ma
     display: none;
 }
 
+.wrapper__3ed10 > svg > svg {
+    display: none;
+}
+
+.wrapper__3ed10 > svg > svg > mask > rect {
+    display: none;
+}
+
 .wrapper__3ed10 foreignObject {
     border-radius: 50px;
     mask: none;
@@ -668,7 +676,7 @@ span[data-slate-string="true"] {
 }
 
 /* Highlight user when there is an unread DM / channel message */
-.link__2e8e1:has(.highlighted__7bba7), .modeUnreadImportant_efb53e:has(.mentionsBadge_c2f85b) {
+.link__3a950:has(.highlighted_e2e5df), .modeUnreadImportant_efb53e:has(.mentionsBadge_c2f85b) {
     border-left: 2px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(90deg,
             rgba(var(--accentcolor-norgb), 0.3),
@@ -677,14 +685,14 @@ span[data-slate-string="true"] {
 }
 
 /* Custom DM selection look */
-div[class="interactive__776ee interactive_a868bc"]:hover {
+div[class="interactive__0786a interactive__3e804"]:hover {
     background: linear-gradient(0deg,
             rgba(var(--accentcolor-norgb), 0.2),
             rgba(var(--accentcolor-norgb), 0.1),
             transparent);
 }
 
-div[class="interactive__776ee interactive_a868bc interactiveSelected_ec846b selected_d94cf9"], div[class="interactive__776ee interactive_a868bc interactiveSelected_ec846b selected_d94cf9"]:hover {
+div[class="interactive__0786a interactive__3e804 interactiveSelected__689f0 selected__37292"], div[class="interactive__0786a interactive__3e804 interactiveSelected__689f0 selected__37292"]:hover {
     border-bottom: 2px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(0deg,
             rgba(var(--accentcolor-norgb), 0.3),
@@ -693,12 +701,12 @@ div[class="interactive__776ee interactive_a868bc interactiveSelected_ec846b sele
 }
 
 /* Hide AKA until hover */
-div[class="nicknames__7447d overflow__87fe8"] {
+div[class="nicknames__12efb overflow__993fa"] {
     filter: blur(5px);
     transition: 0.2s ease;
 }
 
-div[class="nicknames__7447d overflow__87fe8"]:hover {
+div[class="nicknames__12efb overflow__993fa"]:hover {
     filter: blur(0px);
 }
 
@@ -851,7 +859,7 @@ div.text-md-normal__4afad {
     font-family: var(--font-global);
 }
 
-.typingDots_d92d42 {
+.typingDots__0448d {
     margin-top: 5px;
 }
 
@@ -859,7 +867,7 @@ div.text-md-normal__4afad {
     margin-bottom: 2px;
 }
 
-.typingDots_d92d42>svg>g>circle {
+.typingDots__0448d>svg>g>circle {
     color: var(--typing-indicator-channel-color);
 }
 
