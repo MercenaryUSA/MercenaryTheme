@@ -286,6 +286,7 @@ a::after {
 .numberBadge__40d6f {
     background-color: rgba(var(--accentcolor-norgb), 1) !important;
     box-shadow: 0px 0px 5px 2px rgba(var(--accentcolor-norgb), 1) !important;
+    border-radius: 25px;
 }
 
 /* Apply online status glow to DM list */
