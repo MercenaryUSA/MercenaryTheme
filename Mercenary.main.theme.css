@@ -1,8 +1,8 @@
 /**
  * @name Mercenary
  * @author Mercenary
- * @version 0.0.1
- * @invite betterrl
+ * @version 1.0.0
+ * @invite EYDmAgekyW
  * @description An elegant dark theme.
 */
 
@@ -10,7 +10,8 @@
 @import url('https://mercenaryusa.github.io/MercenaryTheme/Mercenary.theme.css');
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&display=swap'); /* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); /* Inter */
 
 /* Addons */
 /* @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css'); */
@@ -20,7 +21,7 @@
     --accentcolor: rgb(114, 137, 218); /* Default: rgb(114, 137, 218); */
     --accentcolor-norgb: 114, 137, 218; /* Default: 114, 137, 218 */
 
-    --font-global: 'Poppins', sans-serif; /* Default: 'Poppins', sans-serif */
+    --font-global: 'Inter', sans-serif; /* Default: 'Inter', sans-serif */
 
     --profile-username-color: var(--accentcolor); /* Default: var(--accentcolor) */
 
@@ -29,6 +30,8 @@
     --bg-secondary-alt: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
     --bg-tertiary: rgba(20, 20, 20, 1); /* Default: rgba(20, 20, 20, 1); */
     --bg-messagebox: rgba(25, 25, 25, 1); /* Default: rgba(25, 25, 25, 1); */
+
+    --border-forum-post: rgba(35, 35, 35, 1); /* Default: rgba(35, 35, 35, 1); */
 
     --mention-highlight: rgba(114, 137, 218, 0.2); /* Default: rgba(114, 137, 218, 0.2); */
     --mention-sidebar: rgba(114, 137, 218, 0.5); /* Default: rgba(114, 137, 218, 0.5); */
@@ -55,6 +58,11 @@
     --typing-message-user-color: var(--accentcolor); /* Default: var(--accentcolor) */
     --typing-indicator-channel-color: var(--accentcolor); /* Default: var(--accentcolor) */
     --typing-indicator-avatar-color: var(--accentcolor); /* Default: var(--accentcolor) */
+
+    --status-text-online: 'Online'; /* Default: 'Online' */
+    --status-text-idle: 'Idle'; /* Default: 'Idle' */
+    --status-text-dnd: 'Do Not Disturb'; /* Default: 'Do Not Disturb' */
+    --status-text-invisible: 'Invisible'; /* Default: 'Invisible' */
 }
 
 /* Change to show/hide your online status in bottom left avatar */

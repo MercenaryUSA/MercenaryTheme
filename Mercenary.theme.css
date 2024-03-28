@@ -54,6 +54,46 @@ div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a hasC
     font-family: var(--font-global) !important;
 }
 
+/* Custom background for forum channels */
+
+div[class="list__5ced9 auto_a48086 scrollerBase_dc3aa9"] {
+    background-color: var(--bg-primary);
+}
+
+section[class="title_b7d661 forumOrHome__75784 container__11d72 themed_b152d4"] {
+    background-color: var(--bg-primary) !important;
+}
+
+div[class="container__99b06 mainCard__8a660"] {
+    border: 1px solid var(--border-forum-post);
+    box-shadow: 0px 0px 5px 0px var(--border-forum-post);
+}
+
+/* Custom hover/selection for forum channels */
+div[class="container__99b06 mainCard__8a660"]:has(.isOpen__8593d) {
+    border: 1px solid rgba(var(--accentcolor-norgb), 0.8);
+    background: linear-gradient(0deg,
+            rgba(var(--accentcolor-norgb), 0.3),
+            rgba(var(--accentcolor-norgb), 0.2),
+            transparent);
+}
+
+.card__691f2 > .isOpen__8593d {
+    border: none;
+    border-bottom: 2px solid rgba(var(--accentcolor-norgb), 0.8);
+    background: linear-gradient(0deg,
+            rgba(var(--accentcolor-norgb), 0.3),
+            rgba(var(--accentcolor-norgb), 0.2),
+            transparent) !important;
+}
+
+.card__691f2 > div[class="container__99b06 mainCard__8a660"]:hover {
+    background: linear-gradient(0deg,
+            rgba(var(--accentcolor-norgb), 0.2),
+            rgba(var(--accentcolor-norgb), 0.1),
+            transparent);
+}
+
 /* button[class="controlButton_ab2899 centerButton__3205b colorable_c84c4c red_a51ba8 button_afdfd9 lookBlank__7ca0a colorBrand_b2253e"] {
     background-color: rgba(var(--accentcolor-norgb), 1) !important;
 } */
@@ -423,6 +463,16 @@ div[class="wrapper__3ed10 avatar__7c789"][aria-label*="Streaming"]>svg[class="ma
     display: none;
 }
 
+/* Remove the status indicator background from user profile modal */
+svg[class="mask__1979f svg_f5b652"] > circle {
+    display: none;
+}
+
+/* Remove the status indicator from the bottom left profile picture */
+svg[class="mask__1979f svg_f5b652"] > svg {
+    display: none;
+}
+
 /* Fix avatar display at top of DM list */
 div[class="wrapper__3ed10 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] > foreignObject {
     x: 3;
@@ -431,7 +481,7 @@ div[class="wrapper__3ed10 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] 
     width: 20px;
 }
 
-/* Change the look of themes list */
+/* Change the look of themes list - BetterDiscord */
 .bd-addon-card {
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
@@ -441,6 +491,7 @@ div[class="wrapper__3ed10 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] 
 #Mercenary-card>.bd-addon-header>.bd-title {
     color: var(--accentcolor);
     font-size: 24px;
+    background-image: url("https://static.cracked.io/images/bg1.gif");
 }
 
 #Mercenary-card>.bd-description-wrap>.bd-description {
@@ -454,6 +505,26 @@ div[class="wrapper__3ed10 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] 
     font-weight: bold;
     position: relative;
     left: 25%;
+}
+
+/* Change the look of themes list - Vencord */
+h2[class="defaultColor__77578 heading-lg-semibold_a200cd vc-m-bottom-16"]::after {
+    content: "Mercenary Theme Activated";
+    margin-left: 125px;
+    color: var(--accentcolor);
+    background-image: url("https://static.cracked.io/images/bg1.gif");
+    font-family: var(--font-global);
+}
+
+div[class="vc-settings-card cardPrimary_cb7a0e card__4dc22"]::after {
+    content: "MercenaryTheme: You can change your --accentcolor inside the Mercenary.main.theme.css file.";
+    color: var(--accentcolor);
+    font-size: 14px;
+}
+
+/* Change sliders to accent color - Vencord */
+div[class="container__871ba default-colors checked__6bdb0"] {
+    background-color: var(--accentcolor) !important;
 }
 
 /* Nicer mention highlight (custom color and removes gradient)*/
@@ -499,6 +570,11 @@ div[class="wrapper__3ed10 avatar__7c789"] > svg[class="mask__1979f svg_f5b652"] 
 .username_d30d99 {
     font-family: var(--font-global);
     font-size: 15px;
+}
+
+/* Make bolded text brighter (mainly for MacOS, since <strong> elements don't properly render) */
+.messageContent__21e69 > strong {
+    color: rgb(230, 230, 230);
 }
 
 /* Add timestamps to edited messages */
@@ -820,4 +896,54 @@ code[class*="scrollbarGhostHairline_c9a45f scrollbar_d66c5e"] {
 
 .container_ca50b9 > div > button:hover > div > svg {
     transform: rotate(360deg);
+}
+
+/* Add theme watermark and style it (also styles username in settings panel) */
+.info__755e1::after {
+    content: "Mercenary Theme";
+    color: var(--accentcolor);
+    font-size: 11px;
+    background-image: url("https://static.cracked.io/images/bg1.gif");
+}
+
+.userTag__4ca14, .nickname__3d1d7 {
+    background-image: url("https://static.cracked.io/images/bg1.gif");
+}
+
+/* Change background for embeds */
+.gridContainer_de8cdc {
+    background-color: var(--bg-messagebox);
+    border-radius: 5px;
+}
+
+/* Allow custom status text */
+.status__8c19b {
+    font-size: 0px;
+    content: "";
+}
+
+.description_ea6680 {
+    font-family: var(--font-global);
+    font-size: 11px;
+}
+
+#account-status-picker--online .status__8c19b:after {
+    content: var(--status-text-online);
+    font-size: 13px;
+    font-family: var(--font-global);
+}
+#account-status-picker--idle .status__8c19b:after {
+    content: var(--status-text-idle);
+    font-size: 13px;
+    font-family: var(--font-global);
+}
+#account-status-picker--dnd .status__8c19b:after {
+    content: var(--status-text-dnd);
+    font-size: 13px;
+    font-family: var(--font-global);
+}
+#account-status-picker--invisible .status__8c19b:after {
+    content: var(--status-text-invisible);
+    font-size: 13px;
+    font-family: var(--font-global);
 }
