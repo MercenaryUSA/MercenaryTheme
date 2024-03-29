@@ -49,10 +49,15 @@ div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a hasC
     box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.1) !important;
 }
 
-.focusLock__10aa5 > div, .flex_f5fbb7, .modalSize__42455 {
+.focusLock__28507 > div, .flex_f18b02, .modalSize__8ea81 {
     background-color: var(--bg-primary) !important;
     font-family: var(--font-global) !important;
 }
+
+/* Custom new shop background */
+/* .shyButton__30111 {
+    background-color: rgba(var(--accentcolor), 0.8);
+} */
 
 /* Custom background for forum channels */
 
