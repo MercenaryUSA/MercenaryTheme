@@ -55,9 +55,12 @@ div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a hasC
 }
 
 /* Custom new shop background */
-/* .shyButton__30111 {
-    background-color: rgba(var(--accentcolor), 0.8);
-} */
+.shyButton__30111 {
+    background: linear-gradient(345deg, rgba(var(--accentcolor-norgb), 0.5) 10%, transparent 50%);
+}
+.newBadge__5fcc2 {
+    background-color: var(--accentcolor) !important;
+}
 
 /* Custom background for forum channels */
 
