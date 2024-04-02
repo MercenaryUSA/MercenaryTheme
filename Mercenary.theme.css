@@ -149,6 +149,10 @@ div[class="nameTag__77ab2 canCopy__8ec33"]>div[class="panelTitleContainer__8e644
     color: var(--profile-username-color);
 }
 
+div[class="wrapper__3ed10"] > svg > circle {
+    display: none;
+}
+
 /* .panels__58331 {
     position: fixed;
     top: 70px;
