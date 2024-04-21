@@ -6,12 +6,6 @@
  * @description An elegant dark theme.
 */
 
-/* Troll code */
-
-.scrollerInner__37fee {
-    background-image: url("https://ei.phncdn.com/videos/202212/12/421254651/original/(m=eaSaaTbaAaaaa)(mh=SWKptNOfOw6Di47h)7.jpg");
-}
-
 /* Apply custom background to the entire app */
 body {
     --background-primary: var(--bg-primary);
