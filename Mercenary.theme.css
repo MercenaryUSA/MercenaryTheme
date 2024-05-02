@@ -31,6 +31,10 @@ div[class="channelTextArea_c2094b channelTextArea__648e5"] {
     background-color: var(--bg-messagebox);
 }
 
+div[class="scrollableContainer_ff917f themedBackground__3a4c0"] {
+    background-color: var(--bg-messagebox);
+}
+
 div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a"] {
     background-color: var(--bg-messagebox);
 }
