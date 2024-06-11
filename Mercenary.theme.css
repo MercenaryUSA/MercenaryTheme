@@ -77,6 +77,10 @@ div[class="root__3eef0"] {
     font-family: var(--font-global) !important;
 }
 
+.wrapper__53064 {
+
+}
+
 /* Custom new shop background */
 .shyButton__30111 {
     background: linear-gradient(345deg, rgba(var(--accentcolor-norgb), 0.5) 10%, transparent 50%);
@@ -603,6 +607,11 @@ div[class="container__871ba default-colors checked__6bdb0"] {
     font-size: 15px;
 }
 
+/* Set size of username tags while typing a message to the same as the rest of the message */
+div[class="markup_a7e664 editor__66464 slateTextArea_b19976 fontSize16Padding_bcbeae"] > div {
+    font-size: 13px;
+}
+
 /* Make bolded text brighter (mainly for MacOS, since <strong> elements don't properly render) */
 .messageContent__21e69 > strong {
     color: rgb(230, 230, 230);
@@ -912,6 +921,15 @@ div.text-md-normal__4afad {
 
 code[class*="scrollbarGhostHairline__00100 scrollbar_b61b2b"] {
     background-color: var(--bg-messagebox);
+}
+
+/* Custom style for inline code blocks */
+span[class="syntaxBefore_bd3975 before_inlineCode__48f7c"], span[class="syntaxAfter__23aff after_inlineCode__59586"], span[class="inlineCode__0cacf"], code[class="inline"] {
+    background: rgb(10, 10, 10);
+}
+
+div[class="markup_a7e664 messageContent_abea64"] > code[class="inline"] {
+    font-size: 13px;
 }
 
 /* Button animations */
