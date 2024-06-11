@@ -39,6 +39,21 @@ div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a"] {
     background-color: var(--bg-messagebox);
 }
 
+/* Background color for text box while replying to a message */
+div[class="scrollableContainer_ff917f themedBackground__3a4c0 hasConnectedBar__7d21e"] {
+    background: var(--bg-messagebox);
+}
+
+div[class="text-sm-normal__95a78 text_e4aea0 replyLabel__84289"], span[class="name__084dd username__4a6f7 desaturateUserColors_eb6bd2"] {
+    color: var(--accentcolor) !important;
+}
+
+div[class="scrollableContainer_ff917f themedBackground__3a4c0 hasConnectedBar__7d21e"] {
+    background: var(--bg-messagebox);
+    border: 1px solid rgba(var(--accentcolor-norgb), 0.5);
+    box-shadow: 0px 5px rgba(var(--accentcolor-norgb), 0.5);
+}
+
 div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a hasConnectedBar__7d21e"] {
     background-color: var(--bg-messagebox);
 }
@@ -934,6 +949,7 @@ code[class*="scrollbarGhostHairline__00100 scrollbar_b61b2b"] {
 
 .userTag__28f9c, .nickname_db3773 {
     background-image: url("https://static.cracked.io/images/bg1.gif");
+    width: fit-content;
 }
 
 /* Change background for embeds */
