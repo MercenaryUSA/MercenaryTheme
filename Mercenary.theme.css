@@ -726,7 +726,7 @@ span[data-slate-string="true"] {
 }
 
 /* Highlight user when there is an unread DM / channel message */
-.link_c91bad:has(.highlighted_f9647d), .modeUnreadImportant__35358:has(.mentionsBadge__3d019) {
+.link_c91bad:has(.highlighted_f9647d), .modeUnreadImportant_d8bfb3:has(.mentionsBadge_e2a798) {
     border-left: 2px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(90deg,
             rgba(var(--accentcolor-norgb), 0.3),
