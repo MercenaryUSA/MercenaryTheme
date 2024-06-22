@@ -879,23 +879,23 @@ div.text-md-normal__4afad {
 }
 
 /* Custom typing indicator */
-.typing__6fd1d {
+.typing_d7ebeb {
     font-size: 0;
 }
 
-.typing__6fd1d strong {
+.typing_d7ebeb strong {
     font-size: 12px;
     color: var(--typing-message-user-color);
     font-family: var(--font-global);
 }
 
-.typing__6fd1d strong:after {
+.typing_d7ebeb strong:after {
     font-size: 12px;
     content: ', ';
     font-family: var(--font-global);
 }
 
-.typing__6fd1d strong:nth-last-child(2)::after {
+.typing_d7ebeb strong:nth-last-child(2)::after {
     content: ' and ';
     color: var(--typing-message-color);
     font-weight: 400;
@@ -903,7 +903,7 @@ div.text-md-normal__4afad {
     font-family: var(--font-global);
 }
 
-.typing__6fd1d strong:last-child::after {
+.typing_d7ebeb strong:last-child::after {
     content: var(--typing-message-is);
     color: var(--typing-message-color);
     font-weight: 400;
@@ -911,7 +911,7 @@ div.text-md-normal__4afad {
     font-family: var(--font-global);
 }
 
-.typing__6fd1d strong:nth-last-child()::after {
+.typing_d7ebeb strong:nth-last-child()::after {
     content: var(--typing-message-are);
     color: var(--typing-message-color);
     font-weight: 400;
@@ -919,15 +919,15 @@ div.text-md-normal__4afad {
     font-family: var(--font-global);
 }
 
-.typingDots__0448d {
+.typingDots_d7ebeb {
     margin-top: 5px;
 }
 
-.dots_a97068 {
+.dots_ce0450 {
     margin-bottom: 2px;
 }
 
-.typingDots__0448d>svg>g>circle {
+.typingDots_d7ebeb>svg>g>circle {
     color: var(--typing-indicator-channel-color);
 }
 
