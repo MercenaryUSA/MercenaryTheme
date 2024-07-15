@@ -14,17 +14,17 @@ body {
     --background-tertiary: var(--bg-tertiary);
 }
 
-div[class="upperContainer_e44302"]>div[class="children_e44302"]::after {
-    display: none;
-}
-
-section[class="theme-dark container_e44302 themed_e44302"]>div[class="upperContainer_e44302"] {
+section[class="theme-dark container_fc4f04 themed_fc4f04"]>div[class="upperContainer_fc4f04"] {
     background-color: var(--bg-primary);
 }
 
-section[class="theme-dark container_e44302 themed_e44302"] {
+section[class="theme-dark container_fc4f04 themed_fc4f04"] {
     padding: 0;
     width: 100%;
+}
+
+div[class="upperContainer_fc4f04"]>div[class="children_fc4f04"]::after {
+    display: none;
 }
 
 div[class="channelTextArea_c2094b channelTextArea__648e5"] {
@@ -91,7 +91,7 @@ div[class="list_a6d69a auto_eed6a8 scrollerBase_eed6a8"] {
     background-color: var(--bg-primary);
 }
 
-section[class="title_a7d72e forumOrHome_ff5f90 container_e44302 themed_e44302"] {
+section[class="title_a7d72e forumOrHome_ff5f90 container_fc4f04 themed_fc4f04"] {
     background-color: var(--bg-primary) !important;
 }
 
@@ -761,7 +761,7 @@ div[class="nicknames__12efb overflow__993fa"]:hover {
 }
 
 /* Add theme watermark to top left */
-div[class="wordmarkWindows_ffbc5e wordmark__5b8c9"]::after, div[class="wordmarkWindows_ffbc5e wordmark__5b8c9"]:hover::after {
+div[class="wordmarkWindows_a934d8 wordmark_a934d8"]::after, div[class="wordmarkWindows_a934d8 wordmark_a934d8"]:hover::after {
     content: "Mercenary Edition";
     font-family: var(--font-global);
     font-size: 13px;
