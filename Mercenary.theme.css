@@ -594,18 +594,18 @@ div[class="container__871ba default-colors checked__6bdb0"] {
 }
 
 /* Change the look of messages */
-.messageContent_ec86aa:not(.repliedTextContent_ec86aa) {
+.messageContent_f9f2ca:not(.repliedTextContent_f9f2ca) {
     font-size: 13px;
     font-family: var(--font-global);
 }
 
-.repliedTextPreview_ec86aa {
+.repliedTextPreview_f9f2ca {
     color: grey;
     font-family: var(--font-global);
     font-size: 13px;
 }
 
-.repliedTextContent_ec86aa {
+.repliedTextContent_f9f2ca {
     color: grey;
     font-family: var(--font-global);
     font-size: 13px;
@@ -942,7 +942,7 @@ span[class="syntaxBefore_bd3975 before_inlineCode__48f7c"], span[class="syntaxAf
     background: rgb(10, 10, 10);
 }
 
-div[class="markup_d6076c messageContent_ec86aa"] > code[class="inline"] {
+div[class="markup_f8f345 messageContent_f9f2ca"] > code[class="inline"] {
     font-size: 13px;
 }
 
