@@ -14,11 +14,11 @@ body {
     --background-tertiary: var(--bg-tertiary);
 }
 
-section[class="theme-dark container_fc4f04 themed_fc4f04"]>div[class="upperContainer_fc4f04"] {
+section[class="theme-dark images-dark container_fc4f04 themed_fc4f04"]>div[class="upperContainer_fc4f04"] {
     background-color: var(--bg-primary);
 }
 
-section[class="theme-dark container_fc4f04 themed_fc4f04"] {
+section[class="theme-dark images-dark container_fc4f04 themed_fc4f04"] {
     padding: 0;
     width: 100%;
 }
@@ -71,6 +71,11 @@ div[class="root__3eef0"] {
 .focusLock__28507 > div, .flex_f18b02, .modalSize__8ea81 {
     background-color: var(--bg-primary) !important;
     font-family: var(--font-global) !important;
+}
+
+/* Background color for "Active Now" */
+div[class="itemCard_f02fcf wrapper_cd82a7 outer_c0f6a6 padded_c0f6a6 interactive_c0f6a6"] {
+    background-color: var(--bg-primary) !important;
 }
 
 /* Custom new shop background */
@@ -167,7 +172,7 @@ div[class="control_f6cce7"]>div[class="container__871ba checked__6bdb0"] {
 }
 
 /* Remove all scrollbars */
-.scrollerBase_f742b:not(.scroller__750f5)::-webkit-scrollbar {
+.scrollerBase_eed6a8:not(.scroller__750f5)::-webkit-scrollbar, .scrollerBase_c49869::-webkit-scrollbar {
     display: none;
 }
 
@@ -869,9 +874,13 @@ div.text-md-normal__4afad {
     font-size: 12px;
 }
 
-.backdrop__1a911 {
-    background: rgba(20, 20, 20, 0.5) !important;
-    backdrop-filter: blur(25px);
+.backdrop_e4f2ae {
+    background: rgba(10, 10, 10, 0.8) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+div[class="modalSize_e1cc86 root_f9a4c9 fullscreenOnMobile_f9a4c9 rootWithShadow_f9a4c9"], div[class="flex_bba380 horizontalReverse_bba380 justifyStart_ec1a20 alignStretch_ec1a20 noWrap_ec1a20 footer_f9a4c9 footerSeparator_f9a4c9"] {
+    background-color: var(--bg-primary);
 }
 
 /* Custom typing indicator */
