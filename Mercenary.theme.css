@@ -1046,5 +1046,5 @@ div[class*="member_a31c43 member_cbd271"] {
 
 /* Make "Remove Friend" and "Block" red */
 div[id="user-context-remove-friend"] > div, div[id="user-context-block"] > div {
-    color: #ED4245
+    color: var(--discord-red);
 }
