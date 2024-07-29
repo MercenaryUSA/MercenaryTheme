@@ -637,8 +637,8 @@ div[class="markup_a7e664 editor__66464 slateTextArea_b19976 fontSize16Padding_bc
 }
 
 /* Add timestamps to edited messages */
-.timestamp_ec86aa:not(.timestampInline_ec86aa, .timestampVisibleOnHover_ec86aa) time::after {
-    content: " (" attr(aria-label) ")";
+.timestamp_f9f2ca:not(.timestampInline_f9f2ca, .timestampVisibleOnHover_f9f2ca) time::after {
+    content: "(" attr(aria-label) ")";
     color: var(--text-muted);
     font-size: 0.625rem;
     font-weight: 400;
@@ -646,7 +646,7 @@ div[class="markup_a7e664 editor__66464 slateTextArea_b19976 fontSize16Padding_bc
     /* text-transform: lowercase; */
 }
 
-.edited_ec86aa:not(.message-translate-indicator) {
+.edited_f9f2ca:not(.message-translate-indicator) {
     display: none;
 }
 
