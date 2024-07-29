@@ -63,6 +63,8 @@
     --status-text-idle: 'Idle'; /* Default: 'Idle' */
     --status-text-dnd: 'Do Not Disturb'; /* Default: 'Do Not Disturb' */
     --status-text-invisible: 'Invisible'; /* Default: 'Invisible' */
+
+    --discord-red: #ED4245;
 }
 
 /* Change to show/hide your online status in bottom left avatar */
