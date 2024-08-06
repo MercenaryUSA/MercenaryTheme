@@ -74,7 +74,7 @@ div[class="root__3eef0"] {
 }
 
 /* Background color for "Active Now" */
-div[class="itemCard_f02fcf wrapper_cd82a7 outer_c0f6a6 padded_c0f6a6 interactive_c0f6a6"] {
+div[class="itemCard_f02fcf wrapper_cd82a7 outer_ac5d22 padded_ac5d22 interactive_ac5d22"] {
     background-color: var(--bg-primary) !important;
 }
 
@@ -185,7 +185,7 @@ div[class="avatarWrapper_b2ca13"]:hover {
     display: none;
 }
 
-div[class="nameTag_b2ca13 canCopy_b2ca13"]>div[class="panelTitleContainer_b2ca13"]>div[class="text-sm/normal_dc00ef title_d1da5f"][data-text-variant="text-sm/normal"] {
+div[class="nameTag_b2ca13 canCopy_b2ca13"]>div[class="panelTitleContainer_b2ca13"]>div[class="text-sm/normal_dc00ef title_b97bdb"][data-text-variant="text-sm/normal"] {
     color: var(--profile-username-color);
 }
 
@@ -329,27 +329,27 @@ a::after {
 }
 
 /* Apply online status glow to DM list */
-.layout_f9647d>.avatar_f9647d>.wrapper_c51b4e[aria-label*="Online via mobile"] {
+.layout_ec8679>.avatar_ec8679>.wrapper_c51b4e[aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-.layout_f9647d>.avatar_f9647d>.wrapper_c51b4e[aria-label*="Online"] {
+.layout_ec8679>.avatar_ec8679>.wrapper_c51b4e[aria-label*="Online"] {
     box-shadow: 0 0px 3px 3px var(--rs-online-color, #1df594);
 }
 
-.layout_f9647d>.avatar_f9647d>.wrapper_c51b4e[aria-label*="Idle"] {
+.layout_ec8679>.avatar_ec8679>.wrapper_c51b4e[aria-label*="Idle"] {
     box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
 }
 
-.layout_f9647d>.avatar_f9647d>.wrapper_c51b4e[aria-label*="Offline"] {
+.layout_ec8679>.avatar_ec8679>.wrapper_c51b4e[aria-label*="Offline"] {
     box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
 }
 
-.layout_f9647d>.avatar_f9647d>.wrapper_c51b4e[aria-label*="Do Not Disturb"] {
+.layout_ec8679>.avatar_ec8679>.wrapper_c51b4e[aria-label*="Do Not Disturb"] {
     box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
 }
 
-.layout_f9647d>.avatar_f9647d>.wrapper_c51b4e[aria-label*="Streaming"] {
+.layout_ec8679>.avatar_ec8679>.wrapper_c51b4e[aria-label*="Streaming"] {
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
 }
 
