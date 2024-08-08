@@ -288,12 +288,15 @@ div[class="scroller__4b984 thin_b1c063 scrollerBase_dc3aa9 fade_ba0fa0"] {
     border: none;
 } */
 
-div[class="rtcConnectionStatus__40882 rtcConnectionQualityFine__471b6"]>svg>path {
+/* Voice Connected color */
+.contents_dd4f85 > div > .default_e07331 {
+    display: inline !important;
+    visibility: visible !important;
     color: var(--accentcolor) !important;
 }
 
-div[class="rtcConnectionStatus__40882 rtcConnectionQualityFine__471b6"]>.labelWrapper_a0c350>button {
-    color: var(--accentcolor) !important;
+div[class="rtcConnectionStatus_c02c63 rtcConnectionQualityFine_c02c63"]>svg>path{
+    fill: var(--accentcolor) !important;
 }
 
 /* Custom channel look */
