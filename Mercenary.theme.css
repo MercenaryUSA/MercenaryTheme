@@ -1006,7 +1006,7 @@ div[class="markup_f8f345 messageContent_f9f2ca"] > code[class="inline"] {
 }
 
 /* Add theme watermark and style it (also styles username in settings panel) */
-.info__755e1::after {
+.info_c5a741::after {
     content: "Mercenary Theme";
     color: var(--accentcolor);
     font-size: 11px;
