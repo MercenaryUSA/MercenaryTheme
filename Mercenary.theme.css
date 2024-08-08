@@ -14,15 +14,28 @@ body {
     --background-tertiary: var(--bg-tertiary);
 }
 
-/* Top sections for Shop and Family Center */
+/* Top sections for Friends, Nitro, Message Requests, Shop and Family Center */
 
-section[class="theme-dark images-dark headerBar_d8354c container_fc4f04 themed_fc4f04"]>div[class="upperContainer_fc4f04"] {
+section[class="theme-dark images-dark headerBar_d8354c container_fc4f04 themed_fc4f04"] {
     background-color: var(--bg-primary);
+    padding: 0;
 }
 
 section[class="theme-dark images-dark sidebarTabBar_d576e9 container_fc4f04 themed_fc4f04"] {
     padding: 0;
     width: 100%;
+}
+
+.container_c2739c > section[class="theme-dark images-dark container_fc4f04 themed_fc4f04"] {
+    background: var(--bg-primary);
+}
+
+div[class="chat_a7d72e container_f3abf4"] > section[class="theme-dark images-dark container_fc4f04 themed_fc4f04"] {
+    background: var(--bg-primary);
+}
+
+.upperContainer_fc4f04 {
+    background: var(--bg-primary);
 }
 
 /* New button to the right of the messagebox */
@@ -785,15 +798,16 @@ div[class="wordmarkWindows_a934d8 wordmark_a934d8"]::after, div[class="wordmarkW
 }
 
 /* Custom bot tag */
-span[class="botTag_a52f38 botTagRegular_fc4b4a botTag__4211a px__7f04f"] {
-    border-radius: 5px;
-    box-shadow: -3px 3px 5px 2px rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.3);
+span[class="botTag_a31c43 botTagRegular_a9e77f botTag_a9e77f px_a9e77f"], span[class="botTagCozy_f9f2ca botTag_f9f2ca botTagRegular_a9e77f botTag_a9e77f rem_a9e77f"] {
+    border: 1px solid var(--accentcolor);
+    color: var(--accentcolor);
     font-family: var(--font-global);
     font-size: 13px;
-    margin-left: 10px;
-    margin-bottom: 5px;
     background: transparent;
+}
+
+svg[class="botTagVerified_a9e77f"] > path {
+    fill: var(--accentcolor) !important;
 }
 
 /* Custom font for profiles */
