@@ -14,13 +14,20 @@ body {
     --background-tertiary: var(--bg-tertiary);
 }
 
-section[class="theme-dark images-dark container_fc4f04 themed_fc4f04"]>div[class="upperContainer_fc4f04"] {
+/* Top sections for Shop and Family Center */
+
+section[class="theme-dark images-dark headerBar_d8354c container_fc4f04 themed_fc4f04"]>div[class="upperContainer_fc4f04"] {
     background-color: var(--bg-primary);
 }
 
-section[class="theme-dark images-dark container_fc4f04 themed_fc4f04"] {
+section[class="theme-dark images-dark sidebarTabBar_d576e9 container_fc4f04 themed_fc4f04"] {
     padding: 0;
     width: 100%;
+}
+
+/* New button to the right of the messagebox */
+div[class="buttonContainer_df39bd app-launcher-entrypoint"] > button {
+    background: var(--bg-messagebox);
 }
 
 div[class="upperContainer_fc4f04"]>div[class="children_fc4f04"]::after {
@@ -378,27 +385,27 @@ a::after {
 }
 
 /* Apply online status glow to guild members list */
-.avatar_e9f61e>.wrapper_c51b4e[aria-label*="Online via mobile"] {
+.avatar_d808b0>.wrapper_c51b4e[aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-.avatar_e9f61e>.wrapper_c51b4e[aria-label*="Online"] {
+.avatar_d808b0>.wrapper_c51b4e[aria-label*="Online"] {
     box-shadow: 0 0px 3px 3px var(--rs-online-color, #1df594);
 }
 
-.avatar_e9f61e>.wrapper_c51b4e[aria-label*="Idle"] {
+.avatar_d808b0>.wrapper_c51b4e[aria-label*="Idle"] {
     box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
 }
 
-.avatar_e9f61e>.wrapper_c51b4e[aria-label*="Offline"] {
+.avatar_d808b0>.wrapper_c51b4e[aria-label*="Offline"] {
     box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
 }
 
-.avatar_e9f61e>.wrapper_c51b4e[aria-label*="Do Not Disturb"] {
+.avatar_d808b0>.wrapper_c51b4e[aria-label*="Do Not Disturb"] {
     box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
 }
 
-.avatar_e9f61e>.wrapper_c51b4e[aria-label*="Streaming"] {
+.avatar_d808b0>.wrapper_c51b4e[aria-label*="Streaming"] {
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
 }
 
@@ -756,12 +763,12 @@ div[class="interactive_f5eb4b interactive_c91bad interactiveSelected_c91bad sele
 }
 
 /* Hide AKA until hover */
-div[class="nicknames__12efb overflow__993fa"] {
+div[class="nicknames_d6c26f overflow_a82120"] {
     filter: blur(5px);
     transition: 0.2s ease;
 }
 
-div[class="nicknames__12efb overflow__993fa"]:hover {
+div[class="nicknames_d6c26f overflow_a82120"]:hover {
     filter: blur(0px);
 }
 
