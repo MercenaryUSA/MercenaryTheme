@@ -1069,3 +1069,8 @@ div[class*="member_a31c43 member_cbd271"] {
 div[id="user-context-remove-friend"] > div, div[id="user-context-block"] > div {
     color: var(--discord-red);
 }
+
+/* Make checkboxes highlight with accent color */
+div[class="container_cebd1c default-colors checked_cebd1c"], div[class="container_cebd1c checked_cebd1c"] {
+    background: var(--accentcolor) !important;
+}
