@@ -478,6 +478,68 @@ div[class="wrapper_c51b4e avatar_f3939d"][aria-label*="Streaming"] {
     margin: 5px 10px 5px 5px;
 }
 
+/* Apply status glow to Active Now list */
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Online via mobile"]>svg[class="mask_c51b4e svg_c51b4e"]>foreignObject {
+    border-radius: var(--rs-avatar-shape);
+    box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Online"]>svg[class="mask_c51b4e svg_c51b4e"]>foreignObject {
+    border-radius: var(--rs-avatar-shape);
+    box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Idle"]>svg[class="mask_c51b4e svg_c51b4e"]>foreignObject {
+    border-radius: var(--rs-avatar-shape);
+    box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Offline"]>svg[class="mask_c51b4e svg_c51b4e"]>foreignObject {
+    border-radius: var(--rs-avatar-shape);
+    box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Do Not Disturb"]>svg[class="mask_c51b4e svg_c51b4e"]>foreignObject {
+    border-radius: var(--rs-avatar-shape);
+    box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Streaming"]>svg[class="mask_c51b4e svg_c51b4e"]>foreignObject {
+    border-radius: var(--rs-avatar-shape);
+    box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
+}
+
+/* Adjust avatar position and apply status glow to friends list avatars in Active Now */
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Online via mobile"] {
+    box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Online"] {
+    box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Idle"] {
+    box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Offline"] {
+    box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Do Not Disturb"] {
+    box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
+    margin: 5px 10px 5px 5px;
+}
+
+div[class="wrapper_c51b4e headerAvatar_cd82a7"][aria-label*="Streaming"] {
+    box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
+    margin: 5px 10px 5px 5px;
+}
+
 /* Not sure where these are applying */
 
 div[class="wrapper__3ed10 avatar__7c789"][aria-label*="Online via mobile"]>svg[class="mask__1979f svg_f5b652"]>foreignObject {
