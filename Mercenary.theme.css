@@ -1074,3 +1074,8 @@ div[id="user-context-remove-friend"] > div, div[id="user-context-block"] > div {
 div[class="container_cebd1c default-colors checked_cebd1c"], div[class="container_cebd1c checked_cebd1c"] {
     background: var(--accentcolor) !important;
 }
+
+/* Custom update button */
+div[class="iconWrapper_fc4f04 clickable_fc4f04"][aria-label="Update Ready!"]>svg>path{
+    fill: var(--accentcolor) !important;
+}
