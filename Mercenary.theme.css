@@ -1144,3 +1144,12 @@ div[class="container_cebd1c default-colors checked_cebd1c"], div[class="containe
 div[class="iconWrapper_fc4f04 clickable_fc4f04"][aria-label="Update Ready!"]>svg>path{
     fill: var(--accentcolor) !important;
 }
+
+/* Custom appearance for muted people */
+div[class="layout_ec8679 muted_ec8679"] > .content_ec8679 > .nameAndDecorators_ec8679 > .name_ec8679 {
+    padding-left: 27px;
+    background-image: url('https://cdn0.iconfinder.com/data/icons/basic-ui-1-smooth-outline/64/2_6_bell_no_notification_notify_ring_alarm_off_Kopie-512.png');
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: left;
+}
