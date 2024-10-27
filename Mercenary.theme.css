@@ -60,7 +60,7 @@ div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a"] {
 }
 
 /* Background color for text box while replying to a message */
-div[class="scrollableContainer_d0696b themedBackground_d0696b hasConnectedBar_d0696b"] {
+div[class="scrollableContainer_bdf0de themedBackground_bdf0de hasStackedBar_bdf0de"] {
     background: var(--bg-messagebox);
 }
 
@@ -68,7 +68,7 @@ div[class="text-sm/normal_dc00ef text_b11c5e replyLabel_b11c5e"] {
     color: var(--accentcolor) !important;
 }
 
-div[class="scrollableContainer_d0696b themedBackground_d0696b hasConnectedBar_d0696b"] {
+div[class="scrollableContainer_bdf0de themedBackground_bdf0de hasStackedBar_bdf0de"] {
     background: var(--bg-messagebox);
     border: 1px solid rgba(var(--accentcolor-norgb), 0.5);
     box-shadow: 0px 5px rgba(var(--accentcolor-norgb), 0.5);
