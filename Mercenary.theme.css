@@ -1153,3 +1153,7 @@ div[class="layout_ec8679 muted_ec8679"] > .content_ec8679 > .nameAndDecorators_e
     background-size: 23px;
     background-position: left;
 }
+
+div[class="defaultColor_a595eb text-xs/normal_dc00ef subtext_d90b3d"] {
+    color: orange !important;
+}
