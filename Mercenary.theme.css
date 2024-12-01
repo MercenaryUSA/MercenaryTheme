@@ -205,7 +205,7 @@ div[class="avatarWrapper_b2ca13"]:hover {
     display: none;
 }
 
-div[class="nameTag_b2ca13 canCopy_b2ca13"]>div[class="panelTitleContainer_b2ca13"]>div[class="text-sm/normal_dc00ef title_b97bdb"][data-text-variant="text-sm/normal"] {
+div[class="nameTag_b2ca13 canCopy_b2ca13"]>div[class="panelTitleContainer_b2ca13"]>div[class="text-sm/medium_dc00ef title_b97bdb"][data-text-variant="text-sm/normal"] {
     color: var(--profile-username-color);
 }
 
@@ -875,7 +875,7 @@ svg[class="botTagVerified_a9e77f"] > path {
     fill: var(--accentcolor) !important;
 }
 
-/* Custom font for profiles */
+Custom font for profiles
 input[class="inputDefault__80165 input_d266e7 messageInput__3b049 input__95bc4"] {
     font-family: var(--font-global);
     font-size: 14px;
@@ -1157,3 +1157,11 @@ div[class="layout_ec8679 muted_ec8679"] > .content_ec8679 > .nameAndDecorators_e
 div[class="defaultColor_a595eb text-xs/normal_dc00ef subtext_d90b3d"] {
     color: orange !important;
 }
+
+/* div[class="layout_ec8679 muted_ec8679"] > .avatar_ec8679 > .wrapper_c51b4e{
+    content: url('https://cdn0.iconfinder.com/data/icons/basic-ui-1-smooth-outline/64/2_6_bell_no_notification_notify_ring_alarm_off_Kopie-512.png');
+}
+
+div[class="layout_ec8679 muted_ec8679"] > .avatar_ec8679 {
+        opacity: 1 !important;
+} */
