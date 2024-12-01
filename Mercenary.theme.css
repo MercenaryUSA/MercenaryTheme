@@ -205,7 +205,7 @@ div[class="avatarWrapper_b2ca13"]:hover {
     display: none;
 }
 
-div[class="nameTag_b2ca13 canCopy_b2ca13"]>div[class="panelTitleContainer_b2ca13"]>div[class="text-sm/medium_dc00ef title_b97bdb"][data-text-variant="text-sm/normal"] {
+div[class="nameTag_b2ca13 canCopy_b2ca13"]>div[class="panelTitleContainer_b2ca13"]>div[class="text-sm/medium_dc00ef title_b97bdb"][data-text-variant="text-sm/medium"] {
     color: var(--profile-username-color);
 }
 
