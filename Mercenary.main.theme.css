@@ -65,6 +65,8 @@
     --status-text-invisible: 'Invisible'; /* Default: 'Invisible' */
 
     --discord-red: #ED4245;
+
+    --popout-stream-text: "You popped the stream out of Discord. You should move your eyeballs over to that window.";
 }
 
 /* Change to show/hide your online status in bottom left avatar */

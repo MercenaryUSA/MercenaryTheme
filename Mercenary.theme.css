@@ -1165,3 +1165,18 @@ div[class="defaultColor_a595eb text-xs/normal_dc00ef subtext_d90b3d"] {
 div[class="layout_ec8679 muted_ec8679"] > .avatar_ec8679 {
         opacity: 1 !important;
 } */
+
+/* Stream popout customization */
+div[class="text-md/semibold_dc00ef header_e5cc00"] {
+    font-size: 0px;
+}
+div[class="text-md/semibold_dc00ef header_e5cc00"]::after {
+    font-size: 16px;
+    content: var(--popout-stream-text);
+    color: var(--accentcolor);
+}
+
+div[class="flex_dc333f vertical_ec1a20 justifyCenter_ec1a20 alignCenter_ec1a20 noWrap_ec1a20 root_a6876b"] {
+    background-color: var(--bg-primary);
+        border: 1px dotted var(--accentcolor) !important;
+}
