@@ -1180,3 +1180,8 @@ div[class="flex_dc333f vertical_ec1a20 justifyCenter_ec1a20 alignCenter_ec1a20 n
     background-color: var(--bg-primary);
         border: 1px dotted var(--accentcolor) !important;
 }
+
+/* Add Friend background */
+.addFriend_c2739c {
+    background: var(--accentcolor) !important;
+}
