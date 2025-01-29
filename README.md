@@ -1,3 +1,5 @@
+# THEME IS NO LONGER MAINTAINED AND MAY BE BROKEN.
+
 # MercenaryTheme
 
 An elegant _dark mode_ theme.
