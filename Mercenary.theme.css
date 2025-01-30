@@ -16,26 +16,35 @@ body {
 
 /* Top sections for Friends, Nitro, Message Requests, Shop and Family Center */
 
-section[class="theme-dark images-dark headerBar_d8354c container_fc4f04 themed_fc4f04"] {
+section[class="theme-dark images-dark headerBar__80679 headerBarTransparentDarkBackground__80679 container__9293f transparent__9293f"] {
     background-color: var(--bg-primary);
     padding: 0;
 }
 
-section[class="theme-dark images-dark sidebarTabBar_d576e9 container_fc4f04 themed_fc4f04"] {
+section[class="headerBar__0920e theme-dark images-dark container__9293f themed__9293f"] {
+    background-color: var(--bg-primary);
+    padding: 0;
+}
+
+section[class="theme-dark images-dark sidebarTabBar_dc2e0e container__9293f themed__9293f"] {
     padding: 0;
     width: 100%;
 }
 
-.container_c2739c > section[class="theme-dark images-dark container_fc4f04 themed_fc4f04"] {
+.container__133bf > section[class="theme-dark images-dark container__9293f themed__9293f"] {
     background: var(--bg-primary);
 }
 
-div[class="chat_a7d72e container_f3abf4"] > section[class="theme-dark images-dark container_fc4f04 themed_fc4f04"] {
+div[class="chat_f75fb0 container_f391e3"] > section[class="theme-dark images-dark container__9293f themed__9293f"] {
     background: var(--bg-primary);
 }
 
-.upperContainer_fc4f04 {
+.upperContainer__9293f {
     background: var(--bg-primary);
+}
+
+div[class="children__9293f"]::after {
+    display: none;
 }
 
 /* New button to the right of the messagebox */
@@ -94,7 +103,7 @@ div[class="root__3eef0"] {
 }
 
 /* Background color for "Active Now" */
-div[class="itemCard_f02fcf wrapper_cd82a7 outer_ac5d22 padded_ac5d22 interactive_ac5d22"] {
+div[class="itemCard__7e549 wrapper__00943 outer_bf1984 padded_bf1984 interactive_bf1984"] {
     background-color: var(--bg-primary) !important;
 }
 
