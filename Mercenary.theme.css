@@ -719,7 +719,7 @@ div[class="markup_a7e664 editor__66464 slateTextArea_b19976 fontSize16Padding_bc
 }
 
 /* Add timestamps to edited messages */
-.timestamp_c19a55:not(.timestampInline_c19a55, .timestampVisibleOnHover_f9f2ca) time::after {
+.timestamp_c19a55:not(.timestampInline_c19a55, .timestampVisibleOnHover_c19a55) time::after {
     content: "(" attr(aria-label) ")";
     color: var(--text-muted);
     font-size: 0.625rem;
