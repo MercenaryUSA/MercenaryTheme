@@ -51,7 +51,7 @@ div[class="channelTextArea_c2094b channelTextArea__648e5"] {
     background-color: var(--bg-messagebox);
 }
 
-div[class="scrollableContainer_bdf0de themedBackground_bdf0de"] {
+div[class="scrollableContainer__74017 themedBackground__74017"] {
     background-color: var(--bg-messagebox);
 }
 
@@ -60,7 +60,7 @@ div[class="scrollableContainer_ff917f themedBackground__3a4c0 webkit__8d35a"] {
 }
 
 /* Background color for text box while replying to a message */
-div[class="scrollableContainer_bdf0de themedBackground_bdf0de hasStackedBar_bdf0de"] {
+div[class="scrollableContainer__74017 themedBackground__74017 hasStackedBar_bdf0de"] {
     background: var(--bg-messagebox);
 }
 
@@ -68,7 +68,7 @@ div[class="text-sm/normal_dc00ef text_b11c5e replyLabel_b11c5e"] {
     color: var(--accentcolor) !important;
 }
 
-div[class="scrollableContainer_bdf0de themedBackground_bdf0de hasStackedBar_bdf0de"] {
+div[class="scrollableContainer__74017 themedBackground__74017 hasStackedBar_bdf0de"] {
     background: var(--bg-messagebox);
     border: 1px solid rgba(var(--accentcolor-norgb), 0.5);
     box-shadow: 0px 5px rgba(var(--accentcolor-norgb), 0.5);
@@ -205,11 +205,11 @@ div[class="avatarWrapper_b2ca13"]:hover {
     display: none;
 }
 
-div[class="nameTag_b2ca13 canCopy_b2ca13"]>div[class="panelTitleContainer_b2ca13"]>div[class="text-sm/medium_dc00ef title_b97bdb"][data-text-variant="text-sm/medium"] {
+div[class="nameTag__37e49 canCopy__37e49"]>div[class="panelTitleContainer__37e49"]>div[class="text-sm/medium_cf4812 title_b6c092"][data-text-variant="text-sm/medium"] {
     color: var(--profile-username-color);
 }
 
-div[class="wrapper_adcaac"] > svg > circle {
+div[class="wrapper_e131a9"] > svg > circle {
     display: none;
 }
 
@@ -344,19 +344,19 @@ a::after {
 } */
 
 /* Make notification badges match accent color */
-.lowerBadge_c5f96a,
-.numberBadge_df8943 {
+.lowerBadge_cc5dd2,
+.numberBadge__2b1f5 {
     background-color: rgba(var(--accentcolor-norgb), 1) !important;
     box-shadow: 0px 0px 5px 2px rgba(var(--accentcolor-norgb), 1) !important;
     border-radius: 25px;
 }
 
 /* Apply online status glow to DM list */
-.layout_ec8679>.avatar_ec8679>.wrapper_c51b4e[aria-label*="Online via mobile"] {
+.layout__20a53>.avatar__20a53>.wrapper__44b0c[aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-.layout_ec8679>.avatar_ec8679>.wrapper_c51b4e[aria-label*="Online"] {
+.layout__20a53>.avatar__20a53>.wrapper__44b0c[aria-label*="Online"] {
     box-shadow: 0 0px 3px 3px var(--rs-online-color, #1df594);
 }
 
@@ -722,7 +722,7 @@ div[class="markup_a7e664 editor__66464 slateTextArea_b19976 fontSize16Padding_bc
 }
 
 /* Add timestamps to edited messages */
-.timestamp_f9f2ca:not(.timestampInline_f9f2ca, .timestampVisibleOnHover_f9f2ca) time::after {
+.timestamp_c19a55:not(.timestampInline_f9f2ca, .timestampVisibleOnHover_f9f2ca) time::after {
     content: "(" attr(aria-label) ")";
     color: var(--text-muted);
     font-size: 0.625rem;
@@ -785,7 +785,7 @@ div[role="textbox"] {
     font-family: var(--font-global);
 }
 
-.placeholder_e68c63 {
+.placeholder__1b31f {
     font-family: var(--font-global);
     font-size: 13px;
 }
@@ -812,7 +812,7 @@ span[data-slate-string="true"] {
 }
 
 /* Highlight user when there is an unread DM / channel message */
-.link_c91bad:has(.highlighted_ec8679), .modeUnreadImportant_d8bfb3:has(.mentionsBadge_e2a798) {
+.link__972a0:has(.highlighted__20a53), .modeUnreadImportant_d8bfb3:has(.mentionsBadge_e2a798) {
     border-left: 2px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(90deg,
             rgba(var(--accentcolor-norgb), 0.3),
@@ -825,14 +825,14 @@ span[data-slate-string="true"] {
 }
 
 /* Custom DM selection look */
-div[class="interactive_f5eb4b interactive_c91bad"]:hover {
+div[class="interactive_bf202d interactive__972a0"]:hover {
     background: linear-gradient(0deg,
             rgba(var(--accentcolor-norgb), 0.2),
             rgba(var(--accentcolor-norgb), 0.1),
             transparent);
 }
 
-div[class="interactive_f5eb4b interactive_c91bad interactiveSelected_c91bad selected_f5eb4b"], div[class="interactive_f5eb4b interactive_c91bad interactiveSelected_c91bad selected_f5eb4b"]:hover {
+div[class="interactive_bf202d interactive__972a0 interactiveSelected__972a0 selected_bf202d"], div[class="interactive_bf202d interactive__972a0 interactiveSelected__972a0 selected_bf202d"]:hover {
     border-bottom: 2px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(0deg,
             rgba(var(--accentcolor-norgb), 0.3),
