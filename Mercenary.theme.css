@@ -838,12 +838,12 @@ div[class="interactive_bf202d interactive__972a0 interactiveSelected__972a0 sele
 }
 
 /* Hide AKA until hover */
-div[class="nicknames_d6c26f overflow_a82120"] {
+div[class="nicknames__488b1 overflow__82b15"] {
     filter: blur(5px);
     transition: 0.2s ease;
 }
 
-div[class="nicknames_d6c26f overflow_a82120"]:hover {
+div[class="nicknames__488b1 overflow__82b15"]:hover {
     filter: blur(0px);
 }
 
