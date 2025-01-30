@@ -1,12 +1,14 @@
-# MercenaryTheme
+## *** THEME IS NO LONGER MAINTAINED AND MAY BE BROKEN ***
+
+### MercenaryTheme
 
 An elegant _dark mode_ theme.
 
-# Notes
+### Notes
 
 - Dark mode _only_ (Light mode appearance not supported)
 
-# Features
+### Features
 
 - Dark theme
 - Custom highlight for unread DM's. (Preview: https://puu.sh/JWaN1/23572596dc.png)
