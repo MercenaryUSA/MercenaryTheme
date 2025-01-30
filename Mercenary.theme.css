@@ -108,33 +108,30 @@ div[class="itemCard_f02fcf wrapper_cd82a7 outer_ac5d22 padded_ac5d22 interactive
 
 /* Custom background for forum channels */
 
-.container_a6d69a {
+.container_f369db {
     background-color: var(--bg-primary);
 }
 
-div[class="list_a6d69a auto_eed6a8 scrollerBase_eed6a8"] {
+div[class="list_f369db auto__99f8c scrollerBase__99f8c"] {
     background-color: var(--bg-primary);
 }
 
-section[class="title_a7d72e forumOrHome_ff5f90 container_fc4f04 themed_fc4f04"] {
+section[class="title_f75fb0 forumOrHome__49676 container__9293f themed__9293f"] {
     background-color: var(--bg-primary) !important;
 }
 
-div[class="container_d331f1 mainCard_a6d69a"] {
+.card_f369db>div[class="container_faa96b mainCard_f369db"] {
+    background-color: var(--bg-primary);
     border: 1px solid var(--border-forum-post);
     box-shadow: 0px 0px 5px 0px var(--border-forum-post);
 }
 
-.card_a6d69a {
-    background-color: var(--bg-primary);
-}
-
-div[class="container_c1668f collapsed_c1668f"] {
+div[class="container_d9be46 collapsed_d9be46"] {
     background-color: var(--bg-primary);
 }
 
 /* Custom hover/selection for forum channels */
-div[class="container_d331f1 mainCard_a6d69a"]:has(.isOpen_d331f) {
+div[class="container_faa96b mainCard_f369db"]:has(.isOpen_faa96b) {
     border: 1px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(0deg,
             rgba(var(--accentcolor-norgb), 0.3),
@@ -142,7 +139,7 @@ div[class="container_d331f1 mainCard_a6d69a"]:has(.isOpen_d331f) {
             transparent);
 }
 
-.card_a6d69a > .isOpen_d331f1 {
+.card_f369db > .isOpen_faa96b {
     border: none;
     border-bottom: 2px solid rgba(var(--accentcolor-norgb), 0.8);
     background: linear-gradient(0deg,
@@ -151,14 +148,14 @@ div[class="container_d331f1 mainCard_a6d69a"]:has(.isOpen_d331f) {
             transparent) !important;
 }
 
-.card__a6d69a > div[class="container_d331f1 mainCard_a6d69a"]:hover {
+.card_f369db > div[class="container_faa96b mainCard_f369db"]:hover {
     background: linear-gradient(0deg,
             rgba(var(--accentcolor-norgb), 0.2),
             rgba(var(--accentcolor-norgb), 0.1),
             transparent);
 }
 
-div[class="container_d331f1 mainCard_a6d69a"] {
+div[class="container_faa96b mainCard_f369db"] {
     background-color: var(--bg-primary) !important;
 }
 
@@ -743,11 +740,11 @@ div[class="markup_a7e664 editor__66464 slateTextArea_b19976 fontSize16Padding_bc
 
 /* Change the color of the "new message" divider to match accent color */
 
-.unreadPillCap__96b8d {
+.unreadPillCap__908e2 {
     display: none;
 }
 
-.unreadPill__715fc {
+.unreadPill__908e2 {
     background-color: transparent;
     color: var(--accentcolor);
     font-size: 0;
@@ -757,20 +754,20 @@ div[class="markup_a7e664 editor__66464 slateTextArea_b19976 fontSize16Padding_bc
     /* border: 1px solid rgb(var(--accentcolor)); */
 }
 
-.unreadPill__715fc:after {
+.unreadPill__908e2:after {
     content: "NEW MESSAGES";
     font-size: 12px;
     color: var(--accentcolor);
     width: fit-content;
 }
 
-.isUnread__6f880 {
+.isUnread__908e2 {
     border: none;
     background: linear-gradient(90deg, var(--accentcolor) 0%, var(--bg-primary) calc(100% - 15%));
     height: 1px;
 }
 
-.unreadPill__715fc {
+.unreadPill__908e2 {
     top: -7px;
     color: var(--accentcolor);
     width: 225px;
@@ -1137,7 +1134,7 @@ div[id="user-context-remove-friend"] > div, div[id="user-context-block"] > div {
 }
 
 /* Make checkboxes highlight with accent color */
-div[class="container_cebd1c default-colors checked_cebd1c"], div[class="container_cebd1c checked_cebd1c"] {
+div[class="container__87bf1 default-colors checked__87bf1"], div[class="container__87bf1 checked__87bf1"] {
     background: var(--accentcolor) !important;
 }
 
@@ -1147,7 +1144,7 @@ div[class="iconWrapper_fc4f04 clickable_fc4f04"][aria-label="Update Ready!"]>svg
 }
 
 /* Custom appearance for muted people */
-div[class="layout_ec8679 muted_ec8679"] > .content_ec8679 > .nameAndDecorators_ec8679 > .name_ec8679 {
+div[class="layout__20a53 muted__20a53"] > .content__20a53 > .nameAndDecorators__20a53 > .name__20a53 {
     padding-left: 27px;
     background-image: url('https://cdn0.iconfinder.com/data/icons/basic-ui-1-smooth-outline/64/2_6_bell_no_notification_notify_ring_alarm_off_Kopie-512.png');
     background-repeat: no-repeat;
