@@ -357,7 +357,7 @@ a::after {
     box-shadow: 0 0px 3px 3px var(--rs-online-color, #1df594);
 }
 
-.layout__20a53>.avatar__20a53>.wrapper__44b0ce[aria-label*="Idle"] {
+.layout__20a53>.avatar__20a53>.wrapper__44b0c[aria-label*="Idle"] {
     box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
 }
 
