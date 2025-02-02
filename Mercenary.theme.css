@@ -846,6 +846,14 @@ div[class="interactive_bf202d interactive__972a0 interactiveSelected__972a0 sele
             transparent);
 }
 
+div[class="interactive_bf202d interactive__972a0 interactiveSelected__972a0 selected_bf202d"]>a>div>div>div>div>div[class="text-xs/medium_cf4812 text__8ac07"] {
+    color: white !important;
+}
+
+div[class="interactive_bf202d interactive__972a0 interactiveSelected__972a0 selected_bf202d"]:hover>a>div>div>div>div>.overflow__82b15{
+    color: white !important;
+}
+
 /* Hide AKA until hover */
 div[class="nicknames__488b1 overflow__82b15"] {
     filter: blur(5px);
