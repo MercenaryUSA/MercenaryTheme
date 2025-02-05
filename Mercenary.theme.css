@@ -407,27 +407,27 @@ a::after {
 }
 
 /* Apply online status glow to guild members list */
-.avatar__91a9d>.avatar__91a9d[aria-label*="Online via mobile"] {
+.wrapper__44b0c[aria-label*="Online via mobile"] {
     box-shadow: 0 0 3px 3px var(--rs-online-color, #1df594);
 }
 
-.avatar__91a9d>.avatar__91a9d[aria-label*="Online"] {
+.wrapper__44b0c[aria-label*="Online"] {
     box-shadow: 0 0px 3px 3px var(--rs-online-color, #1df594);
 }
 
-.avatar__91a9d>.avatar__91a9d[aria-label*="Idle"] {
+.wrapper__44b0c[aria-label*="Idle"] {
     box-shadow: 0 0 3px 3px var(--rs-idle-color, #faa61a);
 }
 
-.avatar__91a9d>.avatar__91a9d[aria-label*="Offline"] {
+.wrapper__44b0c[aria-label*="Offline"] {
     box-shadow: 0 0 3px 3px var(--rs-offline-color, #636b75);
 }
 
-.avatar__91a9d>.avatar__91a9d[aria-label*="Do Not Disturb"] {
+.wrapper__44b0c[aria-label*="Do Not Disturb"] {
     box-shadow: 0 0 3px 3px var(--rs-dnd-color, #ee3d3d);
 }
 
-.avatar__91a9d>.avatar__91a9d[aria-label*="Streaming"] {
+.wrapper__44b0c[aria-label*="Streaming"] {
     box-shadow: 0 0 3px 3px var(--rs-streaming-color, #643da7);
 }
 
