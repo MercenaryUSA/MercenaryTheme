@@ -763,6 +763,16 @@ div[class="markup_a7e664 editor__66464 slateTextArea_b19976 fontSize16Padding_bc
     /* border: 1px solid rgb(var(--accentcolor)); */
 }
 
+/* Change color of date divider above messages */
+div[class="divider__5126c hasContent__5126c divider__908e2 hasContent__908e2"] {
+    background-color: var(--accentcolor);
+}
+
+.content__908e2 {
+    color: var(--accentcolor);
+}
+
+
 .unreadPill__908e2:after {
     content: "NEW MESSAGES";
     font-size: 12px;
