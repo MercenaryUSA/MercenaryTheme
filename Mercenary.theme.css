@@ -1210,3 +1210,9 @@ div[class="flex_dc333f vertical_ec1a20 justifyCenter_ec1a20 alignCenter_ec1a20 n
 .addFriend__133bf {
     background: var(--accentcolor) !important;
 }
+
+/* Popout effect for embedded images */
+.imageContent__0f481 {
+    box-shadow: 5px 5px 10px 1px rgb(10, 10, 10);
+    margin: px;
+}
