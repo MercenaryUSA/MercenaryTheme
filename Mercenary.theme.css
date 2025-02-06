@@ -1147,7 +1147,7 @@ div[class="markup__75297 messageContent_c19a55"] > code[class="inline"] {
 }
 
 /* Fix background for members list */
-.members_c8ffbb, .container_c8ffbb, .memberInner__5d473 {
+.members_c8ffbb, .container_c8ffbb, .container__91a9d, .memberInner__5d473 {
     background-color: var(--bg-primary);
 }
 
