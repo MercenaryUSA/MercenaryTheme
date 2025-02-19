@@ -1160,6 +1160,11 @@ div[id="user-context-remove-friend"] > div, div[id="user-context-block"] > div {
     color: var(--discord-red);
 }
 
+/* Make "Ignore" yellow */
+div[id="user-context-ignore"] {
+    color: orange;
+}
+
 /* Make checkboxes highlight with accent color */
 div[class="container__87bf1 default-colors checked__87bf1"], div[class="container__87bf1 checked__87bf1"] {
     background: var(--accentcolor) !important;
