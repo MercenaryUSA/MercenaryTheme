@@ -1221,3 +1221,18 @@ div[class="flex_dc333f vertical_ec1a20 justifyCenter_ec1a20 alignCenter_ec1a20 n
     box-shadow: 5px 5px 10px 1px rgb(10, 10, 10);
     margin: px;
 }
+
+/* Shop list item custom decoration */
+a[data-list-item-id="private-channels-uid_1085___shop"] {
+    background: linear-gradient(90deg, rgba(var(--accentcolor-norgb), 0.5), var(--bg-primary)) !important;
+    color: whitesmoke;
+}
+
+.marketingButtonBackground__4ed1a > img {
+    display: none;
+}
+
+.newBadge__4ed1a {
+    background: var(--accentcolor) !important;
+    color: black;
+}
