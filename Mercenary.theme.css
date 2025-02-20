@@ -1222,6 +1222,12 @@ div[class="flex_dc333f vertical_ec1a20 justifyCenter_ec1a20 alignCenter_ec1a20 n
     margin: px;
 }
 
+/* NEW badge custom look */
+.newBadge__4ed1a {
+    background: var(--accentcolor) !important;
+    color: black;
+}
+
 /* Shop list item custom decoration */
 a[data-list-item-id="private-channels-uid_1085___shop"] {
     background: linear-gradient(90deg, rgba(var(--accentcolor-norgb), 0.5), var(--bg-primary)) !important;
@@ -1232,7 +1238,6 @@ a[data-list-item-id="private-channels-uid_1085___shop"] {
     display: none;
 }
 
-.newBadge__4ed1a {
-    background: var(--accentcolor) !important;
-    color: black;
+.link__972a0 > .newBadge__4ed1a {
+    display: none;
 }
